@@ -32,39 +32,38 @@ VS Code       Development environment
 
 # Machine Learning Models
 
-Linear Regression
-Logistic Regression
-Decision Tree Classifier
-Decision Tree Regressor
-Random Forest Regressor
-K-Means Clustering
+• Linear Regression
+• Logistic Regression
+• Decision Tree Classifier
+• Decision Tree Regressor
+• Random Forest Regressor
+• K-Means Clustering
 
 # Features
 
-User Login
-Registration
-Forgot Password
-Secret Question Authentication
-Dashboard
-EDA
-Prediction Models
-Power BI Dashboard
-Report Download
-User Activity Logging
+• User Login
+• Registration
+• Forgot Password
+• Secret Question Authentication
+• Dashboard
+• EDA
+• Prediction Models
+• Power BI Dashboard
+• Report Download
+• User Activity Logging
 
 # Dataset Columns
 
-Patient_ID
-Admission_Date
-Discharge_Date
-Department
-Bed_Type
-Total_Beds
-Occupied_Beds
-Doctor_Assigned
-ICU_Usage
-Equipment_Used
-Staff_On_Duty
-Treatment_Duration_Days
-Resource_Usage_Percentage
-
+• Patient_ID
+• Admission_Date
+• Discharge_Date
+• Department
+• Bed_Type
+• Total_Beds
+• Occupied_Beds
+• Doctor_Assigned
+• ICU_Usage
+• Equipment_Used
+• Staff_On_Duty
+• Treatment_Duration_Days
+• Resource_Usage_Percentage
