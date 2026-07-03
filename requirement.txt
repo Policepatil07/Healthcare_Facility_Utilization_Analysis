@@ -8,3 +8,5 @@ matplotlib
 os
 base64
 re
+sqlite3
+bcrypt
