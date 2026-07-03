@@ -1,0 +1,1001 @@
+Patient_ID,Admission_Date,Discharge_Date,Department,Bed_Type,Total_Beds,Occupied_Beds,Doctor_Assigned,ICU_Usage,Equipment_Used,Staff_On_Duty,Treatment_Duration_Days,Resource_Usage_%
+P0001,2026-06-13,2026-06-16,Pediatrics,ICU,50,43,Dr. Khan,Yes,Fetal Monitor,8,3,86
+P0002,2026-06-23,2026-07-06,Cardiology,General,60,51,Dr. Rao,Yes,Ventilator,21,13,85
+P0003,2026-06-04,2026-06-06,Gynecology,ICU,80,77,Dr. Das,No,ECG Machine,29,2,96.25
+P0004,2026-02-10,2026-02-23,Pediatrics,ICU,120,91,Dr. Khan,No,MRI Scanner,7,13,75.83
+P0005,2026-04-08,2026-04-11,Oncology,Private,100,94,Dr. Sharma,No,Nebulizer,8,3,94
+P0006,2026-04-07,2026-04-10,Oncology,ICU,90,89,Dr. Rao,Yes,Skin Scanner,12,3,98.89
+P0007,2026-03-16,2026-03-19,Gynecology,Private,80,38,Dr. Das,No,X-Ray Machine,16,3,47.5
+P0008,2026-04-01,2026-04-06,Neurology,ICU,90,80,Dr. Khan,Yes,EEG Machine,17,5,88.89
+P0009,2026-03-11,2026-03-23,Oncology,General,80,75,Dr. Khan,Yes,CT Scanner,17,12,93.75
+P0010,2026-03-10,2026-03-13,Oncology,ICU,80,68,Dr. Das,No,Skin Scanner,19,3,85
+P0011,2026-02-06,2026-02-12,Pediatrics,Semi-Private,70,43,Dr. Nair,No,Ventilator,9,6,61.43
+P0012,2026-05-11,2026-05-20,Neurology,ICU,60,27,Dr. Mehta,No,Radiation Machine,7,9,45
+P0013,2026-04-09,2026-04-17,Pediatrics,General,150,127,Dr. Rao,No,Skin Scanner,15,8,84.67
+P0014,2026-01-29,2026-02-04,Dermatology,General,120,68,Dr. Patel,Yes,Nebulizer,8,6,56.67
+P0015,2026-06-10,2026-06-16,Oncology,ICU,80,41,Dr. Sharma,No,EEG Machine,5,6,51.25
+P0016,2026-01-29,2026-02-05,Cardiology,ICU,90,51,Dr. Rao,Yes,Fetal Monitor,20,7,56.67
+P0017,2026-01-18,2026-02-01,Dermatology,ICU,70,36,Dr. Patel,No,Ventilator,22,14,51.43
+P0018,2026-06-26,2026-07-01,Oncology,Semi-Private,90,61,Dr. Das,Yes,Ventilator,12,5,67.78
+P0019,2026-01-17,2026-01-24,Emergency,ICU,50,38,Dr. Sharma,Yes,Fetal Monitor,25,7,76
+P0020,2026-01-16,2026-01-21,Oncology,General,60,26,Dr. Khan,No,Skin Scanner,20,5,43.33
+P0021,2026-02-24,2026-03-06,Dermatology,ICU,70,64,Dr. Das,No,Ventilator,8,10,91.43
+P0022,2026-01-25,2026-02-06,Gynecology,Semi-Private,120,93,Dr. Das,Yes,Skin Scanner,25,12,77.5
+P0023,2026-06-15,2026-06-18,Oncology,General,50,32,Dr. Khan,Yes,Ventilator,22,3,64
+P0024,2026-04-25,2026-04-29,Pediatrics,Semi-Private,120,71,Dr. Khan,Yes,EEG Machine,30,4,59.17
+P0025,2026-05-21,2026-05-24,Cardiology,General,50,40,Dr. Khan,Yes,Heart Monitor,20,3,80
+P0026,2026-05-04,2026-05-09,Orthopedics,Semi-Private,120,55,Dr. Sharma,No,Ultrasound,30,5,45.83
+P0027,2026-04-27,2026-05-03,Dermatology,ICU,120,119,Dr. Khan,No,Ventilator,6,6,99.17
+P0028,2026-05-29,2026-06-11,Oncology,General,50,43,Dr. Sharma,No,Nebulizer,21,13,86
+P0029,2026-02-10,2026-02-12,Neurology,General,60,35,Dr. Khan,No,MRI Scanner,23,2,58.33
+P0030,2026-03-05,2026-03-16,Neurology,Semi-Private,50,39,Dr. Reddy,No,Ventilator,26,11,78
+P0031,2026-03-22,2026-03-27,Orthopedics,Private,90,61,Dr. Das,No,MRI Scanner,5,5,67.78
+P0032,2026-04-28,2026-05-09,Emergency,Private,60,28,Dr. Mehta,No,MRI Scanner,12,11,46.67
+P0033,2026-04-05,2026-04-11,Pediatrics,General,70,56,Dr. Patel,Yes,X-Ray Machine,13,6,80
+P0034,2026-01-30,2026-02-02,Pediatrics,ICU,70,45,Dr. Reddy,Yes,Skin Scanner,25,3,64.29
+P0035,2026-03-09,2026-03-19,Cardiology,General,150,92,Dr. Nair,No,ECG Machine,5,10,61.33
+P0036,2026-03-27,2026-04-10,Pediatrics,ICU,70,68,Dr. Das,No,Nebulizer,5,14,97.14
+P0037,2026-01-29,2026-02-01,Cardiology,Private,70,62,Dr. Mehta,No,X-Ray Machine,6,3,88.57
+P0038,2026-03-20,2026-03-27,Oncology,ICU,50,48,Dr. Khan,Yes,CT Scanner,29,7,96
+P0039,2026-05-24,2026-06-08,Emergency,ICU,120,67,Dr. Mehta,No,ECG Machine,10,15,55.83
+P0040,2026-03-27,2026-04-10,Pediatrics,ICU,120,79,Dr. Rao,No,ECG Machine,20,14,65.83
+P0041,2026-02-26,2026-03-03,Pediatrics,ICU,150,104,Dr. Khan,Yes,Skin Scanner,11,5,69.33
+P0042,2026-04-13,2026-04-20,Pediatrics,Private,90,40,Dr. Nair,No,ECG Machine,8,7,44.44
+P0043,2026-03-08,2026-03-12,Neurology,Semi-Private,90,38,Dr. Reddy,No,Heart Monitor,24,4,42.22
+P0044,2026-05-11,2026-05-14,Pediatrics,General,120,72,Dr. Nair,Yes,Nebulizer,30,3,60
+P0045,2026-05-18,2026-05-30,Gynecology,General,80,55,Dr. Reddy,No,Skin Scanner,8,12,68.75
+P0046,2026-03-18,2026-03-28,Gynecology,Private,90,78,Dr. Nair,No,Nebulizer,9,10,86.67
+P0047,2026-02-19,2026-02-27,Pediatrics,Semi-Private,120,70,Dr. Sharma,No,Ultrasound,11,8,58.33
+P0048,2026-04-21,2026-05-05,Dermatology,Semi-Private,100,69,Dr. Khan,No,Fetal Monitor,10,14,69
+P0049,2026-06-18,2026-06-21,Oncology,General,90,68,Dr. Khan,No,Ventilator,30,3,75.56
+P0050,2026-02-20,2026-02-24,Emergency,Semi-Private,50,21,Dr. Rao,No,Heart Monitor,25,4,42
+P0051,2026-05-28,2026-06-02,Gynecology,ICU,120,111,Dr. Mehta,Yes,MRI Scanner,29,5,92.5
+P0052,2026-04-19,2026-04-24,Dermatology,General,70,61,Dr. Khan,Yes,EEG Machine,9,5,87.14
+P0053,2026-04-29,2026-05-11,Dermatology,Semi-Private,100,100,Dr. Das,Yes,Fetal Monitor,20,12,100
+P0054,2026-04-26,2026-05-02,Pediatrics,Semi-Private,80,72,Dr. Khan,No,EEG Machine,7,6,90
+P0055,2026-03-15,2026-03-20,Oncology,General,90,57,Dr. Mehta,Yes,Ventilator,17,5,63.33
+P0056,2026-06-27,2026-07-01,Gynecology,Semi-Private,80,36,Dr. Reddy,No,Heart Monitor,6,4,45
+P0057,2026-02-22,2026-03-09,Cardiology,Semi-Private,120,97,Dr. Das,Yes,CT Scanner,14,15,80.83
+P0058,2026-04-10,2026-04-25,Emergency,Semi-Private,120,116,Dr. Khan,No,Heart Monitor,20,15,96.67
+P0059,2026-01-08,2026-01-16,Gynecology,ICU,100,82,Dr. Das,Yes,Radiation Machine,22,8,82
+P0060,2026-01-07,2026-01-15,Gynecology,ICU,50,22,Dr. Das,Yes,ECG Machine,13,8,44
+P0061,2026-04-08,2026-04-15,Oncology,Private,80,61,Dr. Nair,No,Heart Monitor,13,7,76.25
+P0062,2026-01-21,2026-01-30,Cardiology,Private,50,43,Dr. Khan,Yes,Skin Scanner,6,9,86
+P0063,2026-01-08,2026-01-13,Orthopedics,ICU,80,33,Dr. Mehta,No,Skin Scanner,8,5,41.25
+P0064,2026-05-25,2026-05-30,Pediatrics,Private,150,149,Dr. Mehta,Yes,X-Ray Machine,14,5,99.33
+P0065,2026-01-28,2026-02-08,Pediatrics,Semi-Private,50,49,Dr. Nair,Yes,MRI Scanner,23,11,98
+P0066,2026-06-26,2026-07-11,Pediatrics,General,80,38,Dr. Sharma,No,Nebulizer,18,15,47.5
+P0067,2026-06-19,2026-06-26,Oncology,General,60,56,Dr. Nair,No,MRI Scanner,18,7,93.33
+P0068,2026-04-03,2026-04-15,Orthopedics,Semi-Private,150,150,Dr. Mehta,No,Radiation Machine,30,12,100
+P0069,2026-05-18,2026-06-01,Gynecology,Private,150,119,Dr. Reddy,Yes,MRI Scanner,13,14,79.33
+P0070,2026-04-26,2026-05-01,Gynecology,Private,150,132,Dr. Sharma,No,CT Scanner,10,5,88
+P0071,2026-05-05,2026-05-10,Pediatrics,Private,100,91,Dr. Patel,No,Nebulizer,5,5,91
+P0072,2026-05-13,2026-05-18,Gynecology,Semi-Private,60,39,Dr. Khan,No,Skin Scanner,27,5,65
+P0073,2026-05-06,2026-05-15,Pediatrics,ICU,50,22,Dr. Nair,Yes,Ultrasound,26,9,44
+P0074,2026-05-29,2026-06-05,Oncology,Semi-Private,150,130,Dr. Reddy,No,Fetal Monitor,19,7,86.67
+P0075,2026-03-11,2026-03-17,Neurology,ICU,90,50,Dr. Reddy,Yes,Fetal Monitor,22,6,55.56
+P0076,2026-06-26,2026-06-30,Dermatology,Private,80,45,Dr. Patel,Yes,Ventilator,14,4,56.25
+P0077,2026-02-28,2026-03-07,Cardiology,ICU,70,47,Dr. Patel,Yes,ECG Machine,22,7,67.14
+P0078,2026-03-16,2026-03-29,Dermatology,General,70,68,Dr. Sharma,No,EEG Machine,20,13,97.14
+P0079,2026-04-23,2026-04-30,Pediatrics,Semi-Private,70,31,Dr. Rao,Yes,Heart Monitor,20,7,44.29
+P0080,2026-01-19,2026-01-30,Orthopedics,Private,50,24,Dr. Rao,Yes,MRI Scanner,22,11,48
+P0081,2026-04-17,2026-04-28,Gynecology,Semi-Private,80,65,Dr. Das,No,Radiation Machine,18,11,81.25
+P0082,2026-03-20,2026-03-31,Neurology,ICU,50,39,Dr. Khan,No,Skin Scanner,7,11,78
+P0083,2026-02-10,2026-02-15,Neurology,ICU,70,63,Dr. Sharma,No,EEG Machine,27,5,90
+P0084,2026-06-02,2026-06-11,Emergency,Private,90,38,Dr. Patel,No,MRI Scanner,26,9,42.22
+P0085,2026-03-01,2026-03-07,Neurology,ICU,80,59,Dr. Mehta,No,X-Ray Machine,7,6,73.75
+P0086,2026-01-16,2026-01-20,Pediatrics,Semi-Private,90,74,Dr. Rao,No,Fetal Monitor,14,4,82.22
+P0087,2026-06-29,2026-07-07,Dermatology,Semi-Private,90,68,Dr. Rao,Yes,Heart Monitor,28,8,75.56
+P0088,2026-03-24,2026-04-04,Neurology,ICU,90,37,Dr. Sharma,No,Radiation Machine,6,11,41.11
+P0089,2026-02-14,2026-02-23,Orthopedics,Semi-Private,150,95,Dr. Das,Yes,EEG Machine,16,9,63.33
+P0090,2026-04-15,2026-04-22,Neurology,ICU,100,82,Dr. Reddy,No,Fetal Monitor,20,7,82
+P0091,2026-03-15,2026-03-27,Cardiology,Semi-Private,120,118,Dr. Rao,No,Ultrasound,15,12,98.33
+P0092,2026-01-30,2026-02-13,Cardiology,Semi-Private,120,113,Dr. Nair,Yes,Ventilator,21,14,94.17
+P0093,2026-04-03,2026-04-14,Dermatology,General,150,140,Dr. Khan,No,Nebulizer,9,11,93.33
+P0094,2026-03-15,2026-03-24,Cardiology,ICU,150,75,Dr. Mehta,No,Nebulizer,5,9,50
+P0095,2026-05-22,2026-05-30,Neurology,Semi-Private,60,38,Dr. Rao,Yes,EEG Machine,27,8,63.33
+P0096,2026-03-16,2026-03-26,Dermatology,Semi-Private,90,62,Dr. Khan,No,Nebulizer,9,10,68.89
+P0097,2026-04-09,2026-04-14,Pediatrics,Semi-Private,70,32,Dr. Reddy,No,ECG Machine,14,5,45.71
+P0098,2026-03-18,2026-04-02,Dermatology,Semi-Private,150,79,Dr. Reddy,No,Nebulizer,29,15,52.67
+P0099,2026-05-20,2026-05-28,Emergency,ICU,150,101,Dr. Nair,Yes,Heart Monitor,6,8,67.33
+P0100,2026-03-23,2026-04-05,Gynecology,Semi-Private,150,150,Dr. Mehta,No,ECG Machine,9,13,100
+P0101,2026-05-09,2026-05-20,Neurology,Semi-Private,100,95,Dr. Rao,No,ECG Machine,28,11,95
+P0102,2026-02-06,2026-02-14,Dermatology,Private,70,32,Dr. Reddy,No,Skin Scanner,7,8,45.71
+P0103,2026-03-26,2026-04-10,Dermatology,General,120,88,Dr. Rao,Yes,Skin Scanner,26,15,73.33
+P0104,2026-03-15,2026-03-20,Neurology,General,60,51,Dr. Das,Yes,Fetal Monitor,14,5,85
+P0105,2026-01-08,2026-01-10,Cardiology,Private,100,90,Dr. Reddy,No,Heart Monitor,9,2,90
+P0106,2026-03-04,2026-03-14,Orthopedics,ICU,120,120,Dr. Mehta,Yes,Radiation Machine,17,10,100
+P0107,2026-06-08,2026-06-20,Orthopedics,ICU,80,63,Dr. Das,No,EEG Machine,13,12,78.75
+P0108,2026-06-20,2026-06-22,Orthopedics,General,150,96,Dr. Das,No,Radiation Machine,14,2,64
+P0109,2026-06-13,2026-06-21,Pediatrics,ICU,90,65,Dr. Nair,No,MRI Scanner,12,8,72.22
+P0110,2026-04-08,2026-04-19,Pediatrics,Private,100,76,Dr. Sharma,No,Ultrasound,5,11,76
+P0111,2026-05-25,2026-06-09,Dermatology,Private,50,49,Dr. Khan,No,Ventilator,25,15,98
+P0112,2026-02-18,2026-03-01,Orthopedics,General,90,79,Dr. Sharma,No,EEG Machine,6,11,87.78
+P0113,2026-05-29,2026-06-05,Pediatrics,Private,70,33,Dr. Nair,Yes,Ventilator,9,7,47.14
+P0114,2026-05-19,2026-05-26,Orthopedics,Private,90,89,Dr. Das,No,Fetal Monitor,15,7,98.89
+P0115,2026-01-30,2026-02-08,Emergency,Semi-Private,60,33,Dr. Reddy,Yes,Heart Monitor,5,9,55
+P0116,2026-03-09,2026-03-19,Oncology,Private,60,53,Dr. Nair,No,MRI Scanner,26,10,88.33
+P0117,2026-03-01,2026-03-10,Oncology,ICU,50,39,Dr. Rao,No,Fetal Monitor,14,9,78
+P0118,2026-06-16,2026-06-24,Cardiology,General,60,32,Dr. Patel,No,MRI Scanner,8,8,53.33
+P0119,2026-03-02,2026-03-12,Dermatology,Private,70,52,Dr. Nair,Yes,Heart Monitor,25,10,74.29
+P0120,2026-01-26,2026-02-10,Gynecology,Private,150,138,Dr. Sharma,No,Ventilator,19,15,92
+P0121,2026-04-24,2026-04-29,Oncology,Private,100,46,Dr. Sharma,No,Ultrasound,11,5,46
+P0122,2026-02-01,2026-02-16,Emergency,General,150,71,Dr. Sharma,No,Ventilator,9,15,47.33
+P0123,2026-05-25,2026-05-30,Emergency,ICU,60,59,Dr. Khan,No,X-Ray Machine,30,5,98.33
+P0124,2026-06-02,2026-06-04,Orthopedics,ICU,90,90,Dr. Patel,Yes,MRI Scanner,26,2,100
+P0125,2026-01-07,2026-01-11,Emergency,Private,50,31,Dr. Sharma,Yes,Ultrasound,6,4,62
+P0126,2026-02-02,2026-02-15,Neurology,General,120,115,Dr. Das,No,CT Scanner,21,13,95.83
+P0127,2026-06-01,2026-06-04,Emergency,General,150,124,Dr. Patel,No,Skin Scanner,5,3,82.67
+P0128,2026-01-16,2026-01-25,Neurology,Semi-Private,120,102,Dr. Das,Yes,MRI Scanner,15,9,85
+P0129,2026-06-05,2026-06-09,Pediatrics,Private,60,32,Dr. Nair,No,EEG Machine,21,4,53.33
+P0130,2026-06-04,2026-06-12,Emergency,Semi-Private,60,31,Dr. Das,Yes,Heart Monitor,15,8,51.67
+P0131,2026-04-27,2026-05-05,Oncology,Semi-Private,120,60,Dr. Reddy,No,CT Scanner,9,8,50
+P0132,2026-06-25,2026-07-04,Neurology,General,60,29,Dr. Nair,Yes,Fetal Monitor,28,9,48.33
+P0133,2026-04-06,2026-04-20,Cardiology,Private,70,63,Dr. Rao,No,CT Scanner,26,14,90
+P0134,2026-04-19,2026-05-04,Pediatrics,Private,50,50,Dr. Reddy,Yes,Radiation Machine,21,15,100
+P0135,2026-02-24,2026-02-28,Neurology,Private,150,88,Dr. Reddy,Yes,Ultrasound,23,4,58.67
+P0136,2026-02-27,2026-03-13,Cardiology,Private,120,119,Dr. Sharma,Yes,Ultrasound,27,14,99.17
+P0137,2026-03-21,2026-03-28,Orthopedics,ICU,100,40,Dr. Nair,Yes,X-Ray Machine,28,7,40
+P0138,2026-06-12,2026-06-14,Emergency,Semi-Private,60,57,Dr. Nair,No,CT Scanner,10,2,95
+P0139,2026-04-05,2026-04-11,Neurology,General,100,89,Dr. Mehta,Yes,Radiation Machine,6,6,89
+P0140,2026-06-22,2026-06-25,Gynecology,Semi-Private,90,64,Dr. Das,No,Ultrasound,11,3,71.11
+P0141,2026-05-12,2026-05-15,Neurology,Private,100,67,Dr. Das,No,ECG Machine,12,3,67
+P0142,2026-04-12,2026-04-23,Emergency,Private,50,20,Dr. Khan,Yes,Ultrasound,14,11,40
+P0143,2026-03-25,2026-03-28,Gynecology,ICU,50,35,Dr. Mehta,No,Nebulizer,27,3,70
+P0144,2026-02-28,2026-03-10,Gynecology,General,100,44,Dr. Nair,Yes,EEG Machine,7,10,44
+P0145,2026-03-22,2026-04-02,Gynecology,Private,120,99,Dr. Rao,No,ECG Machine,15,11,82.5
+P0146,2026-02-13,2026-02-27,Oncology,General,150,148,Dr. Nair,Yes,Ventilator,18,14,98.67
+P0147,2026-05-31,2026-06-08,Pediatrics,Private,60,49,Dr. Khan,No,X-Ray Machine,7,8,81.67
+P0148,2026-05-11,2026-05-23,Emergency,Private,60,57,Dr. Reddy,Yes,Ventilator,8,12,95
+P0149,2026-02-07,2026-02-13,Orthopedics,General,80,43,Dr. Mehta,No,EEG Machine,29,6,53.75
+P0150,2026-05-25,2026-06-08,Oncology,Private,150,147,Dr. Mehta,No,MRI Scanner,20,14,98
+P0151,2026-04-24,2026-05-06,Pediatrics,General,90,86,Dr. Reddy,Yes,Ultrasound,19,12,95.56
+P0152,2026-04-26,2026-04-28,Pediatrics,General,50,31,Dr. Rao,No,EEG Machine,23,2,62
+P0153,2026-05-22,2026-06-05,Emergency,Private,50,34,Dr. Das,Yes,ECG Machine,19,14,68
+P0154,2026-01-27,2026-02-10,Neurology,ICU,100,85,Dr. Sharma,Yes,Fetal Monitor,19,14,85
+P0155,2026-04-23,2026-05-03,Oncology,Private,70,51,Dr. Nair,No,CT Scanner,26,10,72.86
+P0156,2026-06-03,2026-06-05,Oncology,General,100,44,Dr. Nair,No,Ultrasound,28,2,44
+P0157,2026-06-18,2026-06-29,Neurology,ICU,70,49,Dr. Reddy,No,Skin Scanner,27,11,70
+P0158,2026-06-19,2026-06-27,Neurology,Private,70,66,Dr. Nair,No,X-Ray Machine,26,8,94.29
+P0159,2026-06-29,2026-07-14,Oncology,General,60,51,Dr. Reddy,No,X-Ray Machine,11,15,85
+P0160,2026-03-29,2026-04-12,Emergency,ICU,150,84,Dr. Mehta,Yes,Ultrasound,30,14,56
+P0161,2026-01-26,2026-02-05,Oncology,ICU,50,41,Dr. Nair,Yes,X-Ray Machine,10,10,82
+P0162,2026-06-27,2026-07-11,Cardiology,Semi-Private,70,56,Dr. Reddy,Yes,EEG Machine,24,14,80
+P0163,2026-03-14,2026-03-28,Emergency,Private,150,89,Dr. Das,Yes,CT Scanner,26,14,59.33
+P0164,2026-05-27,2026-06-05,Gynecology,Semi-Private,150,96,Dr. Mehta,Yes,Radiation Machine,9,9,64
+P0165,2026-03-06,2026-03-08,Neurology,General,150,107,Dr. Patel,Yes,X-Ray Machine,13,2,71.33
+P0166,2026-04-26,2026-05-06,Neurology,ICU,70,55,Dr. Das,No,ECG Machine,18,10,78.57
+P0167,2026-01-14,2026-01-22,Gynecology,General,100,55,Dr. Reddy,Yes,ECG Machine,15,8,55
+P0168,2026-01-26,2026-02-10,Orthopedics,ICU,100,90,Dr. Sharma,No,EEG Machine,27,15,90
+P0169,2026-02-05,2026-02-19,Cardiology,General,150,117,Dr. Sharma,No,Ventilator,9,14,78
+P0170,2026-05-21,2026-06-03,Pediatrics,ICU,120,62,Dr. Patel,Yes,ECG Machine,12,13,51.67
+P0171,2026-04-18,2026-04-30,Neurology,Semi-Private,150,68,Dr. Sharma,Yes,Fetal Monitor,9,12,45.33
+P0172,2026-03-16,2026-03-24,Oncology,ICU,50,39,Dr. Nair,Yes,Skin Scanner,26,8,78
+P0173,2026-01-22,2026-02-01,Cardiology,Semi-Private,100,44,Dr. Das,Yes,Skin Scanner,17,10,44
+P0174,2026-04-06,2026-04-12,Neurology,Private,50,31,Dr. Khan,Yes,Radiation Machine,28,6,62
+P0175,2026-03-27,2026-03-31,Oncology,ICU,50,31,Dr. Das,No,Skin Scanner,10,4,62
+P0176,2026-02-04,2026-02-07,Pediatrics,ICU,150,64,Dr. Sharma,Yes,ECG Machine,15,3,42.67
+P0177,2026-03-21,2026-03-31,Dermatology,Private,120,117,Dr. Sharma,Yes,Ultrasound,16,10,97.5
+P0178,2026-01-13,2026-01-28,Neurology,Private,100,57,Dr. Nair,No,Fetal Monitor,19,15,57
+P0179,2026-04-09,2026-04-16,Dermatology,Private,70,59,Dr. Patel,Yes,Fetal Monitor,18,7,84.29
+P0180,2026-01-21,2026-01-29,Pediatrics,Private,70,62,Dr. Rao,Yes,CT Scanner,26,8,88.57
+P0181,2026-03-17,2026-03-23,Gynecology,ICU,150,137,Dr. Das,No,EEG Machine,6,6,91.33
+P0182,2026-04-01,2026-04-12,Cardiology,General,120,83,Dr. Nair,No,Nebulizer,30,11,69.17
+P0183,2026-06-23,2026-06-27,Dermatology,General,50,24,Dr. Mehta,Yes,Ventilator,29,4,48
+P0184,2026-06-15,2026-06-22,Cardiology,ICU,100,64,Dr. Das,No,CT Scanner,19,7,64
+P0185,2026-01-20,2026-01-31,Oncology,Semi-Private,70,61,Dr. Reddy,No,Ventilator,8,11,87.14
+P0186,2026-01-07,2026-01-20,Gynecology,General,70,59,Dr. Patel,No,Fetal Monitor,19,13,84.29
+P0187,2026-02-24,2026-03-07,Dermatology,ICU,90,80,Dr. Rao,Yes,MRI Scanner,19,11,88.89
+P0188,2026-02-14,2026-02-27,Oncology,Private,150,71,Dr. Rao,No,Ultrasound,10,13,47.33
+P0189,2026-06-29,2026-07-11,Emergency,General,70,51,Dr. Khan,Yes,Ventilator,30,12,72.86
+P0190,2026-05-07,2026-05-09,Oncology,Semi-Private,100,75,Dr. Mehta,Yes,MRI Scanner,14,2,75
+P0191,2026-04-12,2026-04-25,Gynecology,Semi-Private,150,127,Dr. Rao,Yes,CT Scanner,25,13,84.67
+P0192,2026-01-19,2026-01-28,Oncology,ICU,150,147,Dr. Mehta,Yes,Heart Monitor,21,9,98
+P0193,2026-01-15,2026-01-30,Orthopedics,Private,60,57,Dr. Mehta,Yes,CT Scanner,27,15,95
+P0194,2026-02-27,2026-03-06,Neurology,Private,90,90,Dr. Khan,No,X-Ray Machine,25,7,100
+P0195,2026-03-19,2026-03-30,Orthopedics,ICU,60,56,Dr. Mehta,No,Radiation Machine,6,11,93.33
+P0196,2026-01-08,2026-01-11,Pediatrics,ICU,50,50,Dr. Nair,Yes,EEG Machine,25,3,100
+P0197,2026-05-20,2026-05-26,Emergency,Semi-Private,90,66,Dr. Patel,No,MRI Scanner,27,6,73.33
+P0198,2026-01-16,2026-01-20,Dermatology,Semi-Private,150,113,Dr. Khan,No,Radiation Machine,9,4,75.33
+P0199,2026-03-22,2026-04-06,Oncology,Semi-Private,100,86,Dr. Mehta,No,Nebulizer,22,15,86
+P0200,2026-01-28,2026-02-04,Neurology,Private,80,61,Dr. Das,Yes,X-Ray Machine,8,7,76.25
+P0201,2026-01-13,2026-01-19,Emergency,ICU,120,101,Dr. Reddy,No,Ventilator,29,6,84.17
+P0202,2026-02-10,2026-02-19,Pediatrics,Semi-Private,150,123,Dr. Sharma,Yes,Heart Monitor,21,9,82
+P0203,2026-04-28,2026-05-03,Oncology,General,80,69,Dr. Sharma,No,EEG Machine,24,5,86.25
+P0204,2026-06-17,2026-06-29,Cardiology,General,150,96,Dr. Nair,Yes,Ultrasound,28,12,64
+P0205,2026-04-04,2026-04-18,Cardiology,Semi-Private,120,94,Dr. Sharma,Yes,CT Scanner,22,14,78.33
+P0206,2026-03-15,2026-03-18,Dermatology,Private,120,112,Dr. Rao,Yes,MRI Scanner,17,3,93.33
+P0207,2026-04-06,2026-04-20,Oncology,ICU,100,75,Dr. Khan,No,Nebulizer,6,14,75
+P0208,2026-01-12,2026-01-14,Dermatology,Semi-Private,70,49,Dr. Mehta,Yes,CT Scanner,24,2,70
+P0209,2026-03-23,2026-03-27,Oncology,Semi-Private,120,86,Dr. Patel,No,ECG Machine,16,4,71.67
+P0210,2026-03-26,2026-04-07,Pediatrics,General,60,50,Dr. Das,No,Skin Scanner,30,12,83.33
+P0211,2026-05-29,2026-06-09,Cardiology,Semi-Private,80,78,Dr. Mehta,No,X-Ray Machine,26,11,97.5
+P0212,2026-03-04,2026-03-06,Cardiology,Semi-Private,60,36,Dr. Reddy,No,X-Ray Machine,18,2,60
+P0213,2026-06-26,2026-07-01,Dermatology,General,120,112,Dr. Mehta,Yes,Nebulizer,15,5,93.33
+P0214,2026-06-19,2026-06-28,Orthopedics,Semi-Private,120,88,Dr. Reddy,No,Skin Scanner,29,9,73.33
+P0215,2026-06-24,2026-07-06,Dermatology,ICU,90,75,Dr. Khan,No,Nebulizer,14,12,83.33
+P0216,2026-02-27,2026-03-05,Emergency,Semi-Private,90,81,Dr. Reddy,No,CT Scanner,22,6,90
+P0217,2026-03-12,2026-03-18,Gynecology,Semi-Private,60,60,Dr. Reddy,Yes,Ultrasound,6,6,100
+P0218,2026-03-15,2026-03-28,Dermatology,Private,60,46,Dr. Das,Yes,Ventilator,22,13,76.67
+P0219,2026-03-11,2026-03-21,Neurology,ICU,90,44,Dr. Khan,Yes,Skin Scanner,21,10,48.89
+P0220,2026-02-27,2026-03-11,Neurology,Semi-Private,80,35,Dr. Reddy,No,MRI Scanner,26,12,43.75
+P0221,2026-02-05,2026-02-07,Dermatology,Semi-Private,70,54,Dr. Khan,No,CT Scanner,14,2,77.14
+P0222,2026-06-15,2026-06-17,Emergency,General,60,60,Dr. Mehta,No,X-Ray Machine,6,2,100
+P0223,2026-04-12,2026-04-26,Pediatrics,General,150,83,Dr. Sharma,No,Radiation Machine,24,14,55.33
+P0224,2026-01-28,2026-02-04,Dermatology,ICU,90,65,Dr. Das,No,Ventilator,30,7,72.22
+P0225,2026-01-29,2026-02-05,Pediatrics,ICU,70,57,Dr. Sharma,No,Ultrasound,23,7,81.43
+P0226,2026-06-22,2026-07-06,Gynecology,Semi-Private,80,43,Dr. Reddy,Yes,Heart Monitor,26,14,53.75
+P0227,2026-01-25,2026-01-29,Oncology,ICU,70,58,Dr. Sharma,No,Heart Monitor,12,4,82.86
+P0228,2026-04-25,2026-05-09,Pediatrics,General,90,57,Dr. Patel,No,Fetal Monitor,12,14,63.33
+P0229,2026-01-16,2026-01-28,Pediatrics,ICU,60,53,Dr. Nair,No,Fetal Monitor,8,12,88.33
+P0230,2026-06-13,2026-06-19,Emergency,ICU,100,79,Dr. Mehta,No,X-Ray Machine,19,6,79
+P0231,2026-06-05,2026-06-12,Dermatology,ICU,120,118,Dr. Khan,Yes,Nebulizer,19,7,98.33
+P0232,2026-05-16,2026-05-29,Neurology,General,100,44,Dr. Khan,Yes,X-Ray Machine,15,13,44
+P0233,2026-05-14,2026-05-23,Dermatology,General,60,37,Dr. Das,Yes,EEG Machine,9,9,61.67
+P0234,2026-05-12,2026-05-20,Cardiology,Semi-Private,150,132,Dr. Patel,Yes,Heart Monitor,13,8,88
+P0235,2026-01-01,2026-01-14,Neurology,General,80,69,Dr. Nair,No,Fetal Monitor,7,13,86.25
+P0236,2026-05-19,2026-05-21,Cardiology,Private,60,54,Dr. Nair,Yes,X-Ray Machine,29,2,90
+P0237,2026-06-14,2026-06-27,Gynecology,Semi-Private,120,95,Dr. Nair,No,MRI Scanner,26,13,79.17
+P0238,2026-06-19,2026-07-04,Oncology,General,70,69,Dr. Mehta,No,Nebulizer,9,15,98.57
+P0239,2026-02-27,2026-03-14,Cardiology,Private,50,44,Dr. Das,No,Nebulizer,17,15,88
+P0240,2026-02-28,2026-03-05,Orthopedics,Private,150,104,Dr. Khan,Yes,ECG Machine,30,5,69.33
+P0241,2026-06-19,2026-06-27,Emergency,General,50,27,Dr. Rao,Yes,EEG Machine,24,8,54
+P0242,2026-06-22,2026-07-05,Cardiology,Semi-Private,50,27,Dr. Das,Yes,Nebulizer,11,13,54
+P0243,2026-01-15,2026-01-19,Oncology,Private,90,50,Dr. Khan,No,X-Ray Machine,26,4,55.56
+P0244,2026-05-14,2026-05-19,Pediatrics,General,120,86,Dr. Mehta,No,Nebulizer,20,5,71.67
+P0245,2026-01-13,2026-01-20,Oncology,Semi-Private,120,115,Dr. Nair,Yes,Ultrasound,17,7,95.83
+P0246,2026-02-17,2026-03-03,Emergency,Private,150,90,Dr. Mehta,No,ECG Machine,22,14,60
+P0247,2026-04-16,2026-04-24,Emergency,Private,70,52,Dr. Khan,No,Skin Scanner,7,8,74.29
+P0248,2026-04-26,2026-05-11,Emergency,General,100,45,Dr. Patel,No,Skin Scanner,24,15,45
+P0249,2026-06-04,2026-06-06,Emergency,Semi-Private,60,36,Dr. Khan,No,Ultrasound,5,2,60
+P0250,2026-02-24,2026-03-01,Emergency,ICU,60,54,Dr. Nair,Yes,Nebulizer,15,5,90
+P0251,2026-03-14,2026-03-22,Oncology,Private,150,128,Dr. Patel,No,Nebulizer,20,8,85.33
+P0252,2026-04-30,2026-05-03,Emergency,Private,150,100,Dr. Reddy,No,ECG Machine,23,3,66.67
+P0253,2026-02-26,2026-03-11,Pediatrics,Semi-Private,70,29,Dr. Patel,Yes,Ventilator,15,13,41.43
+P0254,2026-02-28,2026-03-08,Oncology,Private,80,63,Dr. Das,No,EEG Machine,10,8,78.75
+P0255,2026-04-01,2026-04-05,Dermatology,ICU,70,62,Dr. Sharma,Yes,MRI Scanner,26,4,88.57
+P0256,2026-01-13,2026-01-27,Orthopedics,ICU,50,33,Dr. Rao,Yes,ECG Machine,11,14,66
+P0257,2026-05-10,2026-05-19,Dermatology,Semi-Private,100,43,Dr. Sharma,Yes,Nebulizer,22,9,43
+P0258,2026-04-16,2026-04-18,Pediatrics,Private,50,36,Dr. Sharma,No,X-Ray Machine,8,2,72
+P0259,2026-01-25,2026-02-04,Emergency,Private,70,43,Dr. Reddy,No,Heart Monitor,7,10,61.43
+P0260,2026-04-06,2026-04-14,Emergency,ICU,150,132,Dr. Patel,Yes,Skin Scanner,25,8,88
+P0261,2026-01-09,2026-01-12,Gynecology,Semi-Private,120,96,Dr. Sharma,Yes,Fetal Monitor,10,3,80
+P0262,2026-01-22,2026-01-31,Neurology,General,120,90,Dr. Khan,Yes,Fetal Monitor,23,9,75
+P0263,2026-05-02,2026-05-08,Neurology,Private,50,49,Dr. Sharma,Yes,CT Scanner,5,6,98
+P0264,2026-02-23,2026-03-06,Neurology,Private,70,53,Dr. Mehta,Yes,Radiation Machine,17,11,75.71
+P0265,2026-06-23,2026-07-03,Orthopedics,General,100,64,Dr. Reddy,Yes,MRI Scanner,18,10,64
+P0266,2026-03-01,2026-03-16,Gynecology,Private,60,45,Dr. Sharma,No,EEG Machine,20,15,75
+P0267,2026-02-28,2026-03-07,Orthopedics,Semi-Private,120,103,Dr. Rao,No,Ventilator,27,7,85.83
+P0268,2026-01-19,2026-01-22,Gynecology,ICU,90,45,Dr. Nair,No,CT Scanner,8,3,50
+P0269,2026-01-24,2026-01-26,Oncology,Private,90,64,Dr. Rao,Yes,MRI Scanner,10,2,71.11
+P0270,2026-04-21,2026-04-30,Cardiology,General,120,61,Dr. Reddy,Yes,Radiation Machine,24,9,50.83
+P0271,2026-03-25,2026-04-09,Pediatrics,Semi-Private,120,49,Dr. Nair,Yes,Fetal Monitor,22,15,40.83
+P0272,2026-03-04,2026-03-15,Orthopedics,ICU,70,52,Dr. Patel,No,Ultrasound,20,11,74.29
+P0273,2026-02-07,2026-02-10,Pediatrics,Semi-Private,70,55,Dr. Patel,No,MRI Scanner,16,3,78.57
+P0274,2026-03-06,2026-03-11,Emergency,Semi-Private,150,136,Dr. Rao,Yes,Ultrasound,5,5,90.67
+P0275,2026-04-12,2026-04-19,Dermatology,Private,120,90,Dr. Nair,Yes,Ultrasound,15,7,75
+P0276,2026-06-04,2026-06-17,Oncology,ICU,80,62,Dr. Nair,No,Ultrasound,28,13,77.5
+P0277,2026-06-27,2026-07-09,Emergency,Private,150,133,Dr. Nair,No,Heart Monitor,16,12,88.67
+P0278,2026-01-30,2026-02-10,Orthopedics,General,80,69,Dr. Das,Yes,EEG Machine,30,11,86.25
+P0279,2026-03-16,2026-03-31,Dermatology,ICU,60,50,Dr. Patel,Yes,Ultrasound,26,15,83.33
+P0280,2026-02-09,2026-02-22,Neurology,Semi-Private,120,96,Dr. Das,No,Nebulizer,21,13,80
+P0281,2026-06-27,2026-07-05,Oncology,General,50,45,Dr. Rao,Yes,Skin Scanner,26,8,90
+P0282,2026-04-01,2026-04-05,Gynecology,Private,50,38,Dr. Nair,Yes,ECG Machine,8,4,76
+P0283,2026-03-08,2026-03-13,Oncology,Semi-Private,80,60,Dr. Das,Yes,CT Scanner,5,5,75
+P0284,2026-05-04,2026-05-07,Neurology,General,90,62,Dr. Mehta,No,Ultrasound,15,3,68.89
+P0285,2026-04-27,2026-05-11,Dermatology,Private,80,65,Dr. Das,Yes,EEG Machine,28,14,81.25
+P0286,2026-06-28,2026-07-07,Pediatrics,General,100,44,Dr. Rao,Yes,CT Scanner,25,9,44
+P0287,2026-01-28,2026-02-09,Orthopedics,ICU,70,43,Dr. Reddy,No,EEG Machine,12,12,61.43
+P0288,2026-04-14,2026-04-26,Gynecology,Semi-Private,70,39,Dr. Sharma,Yes,EEG Machine,23,12,55.71
+P0289,2026-04-20,2026-04-28,Emergency,ICU,50,42,Dr. Patel,Yes,Radiation Machine,8,8,84
+P0290,2026-05-18,2026-05-22,Emergency,Semi-Private,100,60,Dr. Rao,No,Skin Scanner,20,4,60
+P0291,2026-05-16,2026-05-28,Gynecology,Semi-Private,100,78,Dr. Rao,No,CT Scanner,19,12,78
+P0292,2026-06-08,2026-06-12,Neurology,ICU,90,75,Dr. Reddy,Yes,Ventilator,14,4,83.33
+P0293,2026-01-30,2026-02-03,Orthopedics,Semi-Private,100,84,Dr. Nair,Yes,Radiation Machine,17,4,84
+P0294,2026-04-19,2026-04-23,Orthopedics,ICU,150,141,Dr. Das,No,X-Ray Machine,10,4,94
+P0295,2026-03-22,2026-04-06,Cardiology,Private,150,139,Dr. Sharma,No,X-Ray Machine,11,15,92.67
+P0296,2026-04-09,2026-04-19,Dermatology,Semi-Private,150,112,Dr. Das,No,X-Ray Machine,7,10,74.67
+P0297,2026-05-25,2026-05-27,Cardiology,Private,80,50,Dr. Khan,No,X-Ray Machine,29,2,62.5
+P0298,2026-04-28,2026-05-09,Neurology,General,150,130,Dr. Patel,No,Nebulizer,29,11,86.67
+P0299,2026-01-11,2026-01-25,Emergency,Semi-Private,150,129,Dr. Rao,Yes,Ultrasound,6,14,86
+P0300,2026-04-26,2026-05-02,Neurology,Semi-Private,100,95,Dr. Rao,Yes,Ventilator,30,6,95
+P0301,2026-05-31,2026-06-13,Gynecology,ICU,100,95,Dr. Mehta,Yes,Ventilator,30,13,95
+P0302,2026-01-16,2026-01-27,Pediatrics,ICU,100,74,Dr. Reddy,No,Ultrasound,23,11,74
+P0303,2026-03-10,2026-03-25,Gynecology,General,60,32,Dr. Patel,Yes,Fetal Monitor,9,15,53.33
+P0304,2026-03-05,2026-03-09,Emergency,Semi-Private,100,93,Dr. Das,Yes,Radiation Machine,25,4,93
+P0305,2026-03-10,2026-03-22,Dermatology,General,120,96,Dr. Rao,No,Nebulizer,28,12,80
+P0306,2026-03-13,2026-03-26,Dermatology,Private,100,69,Dr. Sharma,Yes,Fetal Monitor,19,13,69
+P0307,2026-06-12,2026-06-24,Neurology,Semi-Private,100,94,Dr. Khan,No,Ventilator,20,12,94
+P0308,2026-03-10,2026-03-17,Orthopedics,Semi-Private,90,57,Dr. Reddy,Yes,ECG Machine,8,7,63.33
+P0309,2026-06-10,2026-06-24,Neurology,ICU,150,62,Dr. Das,No,ECG Machine,18,14,41.33
+P0310,2026-02-21,2026-03-06,Pediatrics,ICU,70,69,Dr. Patel,Yes,Skin Scanner,16,13,98.57
+P0311,2026-03-06,2026-03-09,Orthopedics,General,100,82,Dr. Nair,No,Fetal Monitor,27,3,82
+P0312,2026-03-01,2026-03-09,Cardiology,ICU,60,30,Dr. Das,Yes,X-Ray Machine,23,8,50
+P0313,2026-02-27,2026-03-09,Cardiology,Private,150,61,Dr. Rao,No,Fetal Monitor,9,10,40.67
+P0314,2026-05-03,2026-05-06,Neurology,General,80,56,Dr. Rao,No,CT Scanner,14,3,70
+P0315,2026-02-05,2026-02-13,Orthopedics,General,70,69,Dr. Sharma,Yes,EEG Machine,16,8,98.57
+P0316,2026-02-24,2026-03-08,Dermatology,ICU,70,54,Dr. Rao,Yes,X-Ray Machine,29,12,77.14
+P0317,2026-02-01,2026-02-12,Gynecology,Private,120,92,Dr. Mehta,Yes,Ultrasound,25,11,76.67
+P0318,2026-01-22,2026-01-27,Cardiology,Private,90,85,Dr. Khan,Yes,Fetal Monitor,17,5,94.44
+P0319,2026-03-17,2026-03-29,Emergency,Semi-Private,50,45,Dr. Nair,Yes,Ventilator,20,12,90
+P0320,2026-06-13,2026-06-24,Cardiology,Private,60,57,Dr. Reddy,Yes,Heart Monitor,23,11,95
+P0321,2026-04-18,2026-04-25,Neurology,General,70,58,Dr. Rao,Yes,Ultrasound,11,7,82.86
+P0322,2026-01-11,2026-01-13,Pediatrics,Semi-Private,120,112,Dr. Nair,No,MRI Scanner,25,2,93.33
+P0323,2026-05-18,2026-05-28,Neurology,Private,70,45,Dr. Rao,Yes,X-Ray Machine,22,10,64.29
+P0324,2026-03-25,2026-04-02,Gynecology,ICU,60,43,Dr. Sharma,Yes,MRI Scanner,18,8,71.67
+P0325,2026-01-30,2026-02-08,Orthopedics,General,50,29,Dr. Sharma,Yes,Fetal Monitor,5,9,58
+P0326,2026-02-11,2026-02-20,Pediatrics,ICU,100,73,Dr. Reddy,Yes,Fetal Monitor,29,9,73
+P0327,2026-03-10,2026-03-23,Oncology,Semi-Private,60,25,Dr. Patel,Yes,Ultrasound,27,13,41.67
+P0328,2026-05-28,2026-06-09,Dermatology,Private,60,55,Dr. Sharma,No,Radiation Machine,10,12,91.67
+P0329,2026-04-05,2026-04-09,Neurology,General,90,85,Dr. Khan,Yes,ECG Machine,5,4,94.44
+P0330,2026-03-04,2026-03-06,Gynecology,ICU,150,106,Dr. Mehta,Yes,Nebulizer,30,2,70.67
+P0331,2026-06-17,2026-06-25,Emergency,Semi-Private,80,52,Dr. Reddy,No,MRI Scanner,23,8,65
+P0332,2026-04-06,2026-04-09,Emergency,General,50,25,Dr. Nair,Yes,EEG Machine,14,3,50
+P0333,2026-03-21,2026-03-28,Dermatology,General,60,59,Dr. Reddy,Yes,Ultrasound,23,7,98.33
+P0334,2026-03-19,2026-04-01,Oncology,Semi-Private,80,61,Dr. Khan,Yes,X-Ray Machine,5,13,76.25
+P0335,2026-04-15,2026-04-17,Oncology,General,80,66,Dr. Reddy,Yes,Skin Scanner,17,2,82.5
+P0336,2026-03-20,2026-03-23,Emergency,Semi-Private,80,65,Dr. Das,Yes,X-Ray Machine,27,3,81.25
+P0337,2026-03-13,2026-03-16,Emergency,Semi-Private,50,49,Dr. Reddy,No,Fetal Monitor,7,3,98
+P0338,2026-05-29,2026-06-01,Gynecology,General,70,68,Dr. Sharma,No,Skin Scanner,9,3,97.14
+P0339,2026-03-02,2026-03-08,Oncology,Semi-Private,90,90,Dr. Reddy,No,EEG Machine,13,6,100
+P0340,2026-03-01,2026-03-04,Neurology,ICU,80,40,Dr. Rao,Yes,EEG Machine,19,3,50
+P0341,2026-03-22,2026-03-30,Oncology,ICU,60,58,Dr. Das,No,EEG Machine,13,8,96.67
+P0342,2026-01-31,2026-02-03,Cardiology,ICU,70,47,Dr. Reddy,Yes,MRI Scanner,27,3,67.14
+P0343,2026-03-05,2026-03-12,Cardiology,Private,120,113,Dr. Patel,Yes,ECG Machine,17,7,94.17
+P0344,2026-04-26,2026-05-06,Dermatology,General,80,38,Dr. Mehta,Yes,ECG Machine,6,10,47.5
+P0345,2026-02-26,2026-03-02,Oncology,General,80,57,Dr. Patel,Yes,ECG Machine,7,4,71.25
+P0346,2026-02-20,2026-03-04,Neurology,Private,150,76,Dr. Rao,Yes,EEG Machine,6,12,50.67
+P0347,2026-02-13,2026-02-24,Dermatology,General,120,98,Dr. Nair,No,X-Ray Machine,16,11,81.67
+P0348,2026-02-24,2026-02-28,Dermatology,ICU,90,53,Dr. Sharma,Yes,Skin Scanner,14,4,58.89
+P0349,2026-05-08,2026-05-16,Neurology,Private,150,67,Dr. Nair,Yes,Heart Monitor,11,8,44.67
+P0350,2026-06-14,2026-06-28,Cardiology,Semi-Private,80,72,Dr. Reddy,No,Nebulizer,30,14,90
+P0351,2026-05-05,2026-05-12,Pediatrics,ICU,100,64,Dr. Sharma,No,Radiation Machine,12,7,64
+P0352,2026-01-08,2026-01-22,Dermatology,Private,90,39,Dr. Khan,Yes,MRI Scanner,12,14,43.33
+P0353,2026-06-18,2026-06-23,Cardiology,ICU,90,70,Dr. Nair,No,X-Ray Machine,10,5,77.78
+P0354,2026-03-02,2026-03-13,Oncology,General,100,91,Dr. Reddy,Yes,Radiation Machine,11,11,91
+P0355,2026-05-07,2026-05-17,Dermatology,General,90,47,Dr. Rao,Yes,Ventilator,24,10,52.22
+P0356,2026-02-26,2026-02-28,Oncology,ICU,150,60,Dr. Mehta,No,Fetal Monitor,10,2,40
+P0357,2026-03-24,2026-03-26,Orthopedics,General,50,24,Dr. Reddy,Yes,CT Scanner,27,2,48
+P0358,2026-06-19,2026-06-27,Pediatrics,Private,60,45,Dr. Mehta,Yes,Fetal Monitor,18,8,75
+P0359,2026-06-13,2026-06-22,Oncology,ICU,100,51,Dr. Mehta,No,Ultrasound,28,9,51
+P0360,2026-06-26,2026-07-02,Cardiology,Semi-Private,70,39,Dr. Sharma,Yes,Radiation Machine,15,6,55.71
+P0361,2026-06-06,2026-06-11,Orthopedics,Private,60,55,Dr. Rao,Yes,CT Scanner,15,5,91.67
+P0362,2026-02-12,2026-02-24,Dermatology,General,60,45,Dr. Patel,Yes,Ventilator,27,12,75
+P0363,2026-01-18,2026-01-25,Neurology,General,90,86,Dr. Sharma,No,EEG Machine,28,7,95.56
+P0364,2026-04-18,2026-04-22,Gynecology,Private,120,111,Dr. Nair,Yes,EEG Machine,30,4,92.5
+P0365,2026-05-28,2026-06-09,Dermatology,General,80,42,Dr. Sharma,No,ECG Machine,15,12,52.5
+P0366,2026-03-08,2026-03-11,Orthopedics,Semi-Private,60,45,Dr. Mehta,Yes,Nebulizer,7,3,75
+P0367,2026-03-28,2026-04-08,Cardiology,Semi-Private,150,150,Dr. Mehta,No,X-Ray Machine,6,11,100
+P0368,2026-01-26,2026-02-02,Gynecology,Private,80,44,Dr. Patel,No,Ventilator,8,7,55
+P0369,2026-01-13,2026-01-21,Cardiology,Private,150,79,Dr. Sharma,No,MRI Scanner,14,8,52.67
+P0370,2026-06-19,2026-07-01,Neurology,General,150,85,Dr. Khan,Yes,Skin Scanner,14,12,56.67
+P0371,2026-01-21,2026-01-30,Gynecology,Semi-Private,60,43,Dr. Das,No,MRI Scanner,25,9,71.67
+P0372,2026-05-20,2026-05-28,Gynecology,Private,70,51,Dr. Mehta,No,ECG Machine,13,8,72.86
+P0373,2026-04-23,2026-05-02,Pediatrics,General,90,50,Dr. Mehta,Yes,MRI Scanner,26,9,55.56
+P0374,2026-03-30,2026-04-13,Cardiology,Semi-Private,120,77,Dr. Nair,No,Radiation Machine,12,14,64.17
+P0375,2026-05-02,2026-05-08,Cardiology,ICU,60,49,Dr. Rao,No,X-Ray Machine,10,6,81.67
+P0376,2026-02-24,2026-03-10,Cardiology,Semi-Private,80,40,Dr. Rao,No,Ventilator,25,14,50
+P0377,2026-02-07,2026-02-22,Neurology,General,90,56,Dr. Nair,No,Nebulizer,15,15,62.22
+P0378,2026-03-12,2026-03-22,Gynecology,General,150,61,Dr. Nair,Yes,X-Ray Machine,23,10,40.67
+P0379,2026-05-31,2026-06-11,Neurology,Private,60,30,Dr. Reddy,No,Ultrasound,17,11,50
+P0380,2026-06-17,2026-06-26,Orthopedics,Private,150,64,Dr. Nair,Yes,Radiation Machine,24,9,42.67
+P0381,2026-06-24,2026-07-07,Gynecology,Private,120,52,Dr. Khan,Yes,Fetal Monitor,20,13,43.33
+P0382,2026-03-10,2026-03-17,Pediatrics,Private,50,30,Dr. Patel,No,Fetal Monitor,26,7,60
+P0383,2026-01-26,2026-02-10,Pediatrics,Semi-Private,80,40,Dr. Reddy,No,Fetal Monitor,18,15,50
+P0384,2026-06-04,2026-06-16,Dermatology,ICU,60,36,Dr. Nair,No,Nebulizer,16,12,60
+P0385,2026-01-15,2026-01-25,Pediatrics,Semi-Private,70,32,Dr. Mehta,Yes,X-Ray Machine,11,10,45.71
+P0386,2026-02-21,2026-03-08,Cardiology,Semi-Private,50,27,Dr. Sharma,No,Fetal Monitor,11,15,54
+P0387,2026-03-12,2026-03-19,Gynecology,General,150,124,Dr. Sharma,Yes,CT Scanner,20,7,82.67
+P0388,2026-06-02,2026-06-11,Oncology,Private,70,58,Dr. Mehta,No,Fetal Monitor,27,9,82.86
+P0389,2026-01-24,2026-01-30,Cardiology,ICU,50,32,Dr. Khan,Yes,Skin Scanner,12,6,64
+P0390,2026-06-23,2026-06-28,Gynecology,General,90,77,Dr. Sharma,No,X-Ray Machine,25,5,85.56
+P0391,2026-02-14,2026-02-25,Pediatrics,Private,50,27,Dr. Patel,No,Heart Monitor,16,11,54
+P0392,2026-04-28,2026-05-04,Pediatrics,Semi-Private,80,61,Dr. Rao,Yes,Nebulizer,26,6,76.25
+P0393,2026-04-06,2026-04-16,Neurology,Semi-Private,90,55,Dr. Rao,No,Ultrasound,25,10,61.11
+P0394,2026-03-25,2026-04-09,Pediatrics,ICU,90,52,Dr. Mehta,Yes,ECG Machine,30,15,57.78
+P0395,2026-06-03,2026-06-11,Orthopedics,General,100,83,Dr. Das,No,Ultrasound,18,8,83
+P0396,2026-04-14,2026-04-22,Emergency,Private,50,38,Dr. Khan,No,Skin Scanner,16,8,76
+P0397,2026-05-10,2026-05-16,Orthopedics,Private,70,70,Dr. Rao,No,X-Ray Machine,28,6,100
+P0398,2026-03-08,2026-03-21,Neurology,ICU,70,49,Dr. Reddy,Yes,Fetal Monitor,14,13,70
+P0399,2026-04-18,2026-05-02,Pediatrics,Private,100,63,Dr. Das,Yes,EEG Machine,6,14,63
+P0400,2026-06-12,2026-06-23,Emergency,General,60,54,Dr. Nair,No,Heart Monitor,6,11,90
+P0401,2026-02-08,2026-02-12,Gynecology,Semi-Private,80,53,Dr. Mehta,No,Fetal Monitor,10,4,66.25
+P0402,2026-01-21,2026-01-30,Orthopedics,Private,100,80,Dr. Sharma,Yes,EEG Machine,13,9,80
+P0403,2026-02-23,2026-03-09,Orthopedics,Semi-Private,70,64,Dr. Rao,Yes,Radiation Machine,18,14,91.43
+P0404,2026-06-12,2026-06-20,Dermatology,Semi-Private,120,102,Dr. Sharma,Yes,Nebulizer,11,8,85
+P0405,2026-04-06,2026-04-08,Emergency,General,100,88,Dr. Sharma,Yes,Ventilator,27,2,88
+P0406,2026-03-30,2026-04-05,Gynecology,Private,70,34,Dr. Mehta,Yes,ECG Machine,14,6,48.57
+P0407,2026-03-16,2026-03-25,Orthopedics,Private,100,67,Dr. Das,No,Ventilator,10,9,67
+P0408,2026-04-14,2026-04-16,Orthopedics,ICU,80,46,Dr. Sharma,Yes,MRI Scanner,16,2,57.5
+P0409,2026-06-16,2026-06-30,Pediatrics,General,50,32,Dr. Sharma,Yes,Skin Scanner,5,14,64
+P0410,2026-01-13,2026-01-26,Dermatology,Semi-Private,60,50,Dr. Rao,No,EEG Machine,27,13,83.33
+P0411,2026-02-09,2026-02-14,Gynecology,General,50,29,Dr. Patel,Yes,Heart Monitor,8,5,58
+P0412,2026-05-11,2026-05-24,Neurology,General,60,42,Dr. Das,Yes,Radiation Machine,11,13,70
+P0413,2026-03-09,2026-03-24,Gynecology,Private,80,54,Dr. Mehta,Yes,Nebulizer,20,15,67.5
+P0414,2026-02-23,2026-03-08,Emergency,General,150,102,Dr. Sharma,Yes,MRI Scanner,23,13,68
+P0415,2026-06-21,2026-06-30,Neurology,General,70,33,Dr. Patel,Yes,EEG Machine,14,9,47.14
+P0416,2026-03-09,2026-03-18,Orthopedics,General,50,23,Dr. Patel,No,Skin Scanner,15,9,46
+P0417,2026-04-20,2026-05-03,Cardiology,General,60,30,Dr. Mehta,Yes,CT Scanner,16,13,50
+P0418,2026-04-23,2026-05-04,Neurology,Private,90,82,Dr. Reddy,Yes,MRI Scanner,17,11,91.11
+P0419,2026-04-13,2026-04-22,Gynecology,Semi-Private,90,89,Dr. Nair,Yes,MRI Scanner,9,9,98.89
+P0420,2026-06-28,2026-07-11,Orthopedics,General,50,50,Dr. Nair,No,Radiation Machine,26,13,100
+P0421,2026-04-23,2026-04-27,Cardiology,ICU,120,93,Dr. Das,No,MRI Scanner,18,4,77.5
+P0422,2026-04-23,2026-04-25,Oncology,General,60,40,Dr. Khan,No,Nebulizer,21,2,66.67
+P0423,2026-06-26,2026-07-09,Emergency,Semi-Private,60,51,Dr. Reddy,No,X-Ray Machine,22,13,85
+P0424,2026-06-06,2026-06-08,Orthopedics,Semi-Private,50,40,Dr. Das,Yes,MRI Scanner,29,2,80
+P0425,2026-05-06,2026-05-13,Pediatrics,General,80,53,Dr. Khan,No,Heart Monitor,12,7,66.25
+P0426,2026-01-21,2026-01-30,Dermatology,General,150,133,Dr. Das,No,CT Scanner,8,9,88.67
+P0427,2026-05-08,2026-05-21,Gynecology,Semi-Private,50,23,Dr. Sharma,Yes,MRI Scanner,30,13,46
+P0428,2026-06-04,2026-06-15,Emergency,Semi-Private,90,68,Dr. Reddy,No,ECG Machine,12,11,75.56
+P0429,2026-04-27,2026-05-04,Oncology,Semi-Private,150,144,Dr. Rao,Yes,Skin Scanner,12,7,96
+P0430,2026-01-01,2026-01-08,Pediatrics,Private,100,93,Dr. Rao,Yes,X-Ray Machine,20,7,93
+P0431,2026-02-05,2026-02-20,Pediatrics,ICU,120,61,Dr. Khan,Yes,Heart Monitor,11,15,50.83
+P0432,2026-04-28,2026-05-13,Oncology,General,80,77,Dr. Nair,Yes,Skin Scanner,26,15,96.25
+P0433,2026-05-31,2026-06-03,Orthopedics,Semi-Private,150,118,Dr. Sharma,Yes,Nebulizer,18,3,78.67
+P0434,2026-05-30,2026-06-08,Orthopedics,ICU,70,65,Dr. Rao,No,Skin Scanner,24,9,92.86
+P0435,2026-06-05,2026-06-12,Emergency,Private,120,101,Dr. Nair,No,Ultrasound,19,7,84.17
+P0436,2026-02-04,2026-02-08,Pediatrics,Private,120,113,Dr. Khan,Yes,Ventilator,24,4,94.17
+P0437,2026-03-16,2026-03-28,Orthopedics,ICU,100,98,Dr. Reddy,Yes,CT Scanner,22,12,98
+P0438,2026-05-03,2026-05-14,Pediatrics,Semi-Private,120,116,Dr. Sharma,Yes,ECG Machine,17,11,96.67
+P0439,2026-02-07,2026-02-09,Pediatrics,ICU,50,26,Dr. Patel,No,X-Ray Machine,6,2,52
+P0440,2026-06-26,2026-07-10,Cardiology,Private,90,49,Dr. Das,Yes,Radiation Machine,26,14,54.44
+P0441,2026-05-24,2026-06-08,Gynecology,ICU,80,79,Dr. Patel,Yes,Heart Monitor,17,15,98.75
+P0442,2026-04-17,2026-05-01,Cardiology,General,100,75,Dr. Patel,Yes,Radiation Machine,29,14,75
+P0443,2026-04-24,2026-05-09,Oncology,ICU,80,72,Dr. Khan,No,EEG Machine,10,15,90
+P0444,2026-06-24,2026-06-27,Neurology,Semi-Private,70,39,Dr. Sharma,No,Ultrasound,22,3,55.71
+P0445,2026-03-09,2026-03-13,Pediatrics,General,70,65,Dr. Reddy,No,Fetal Monitor,9,4,92.86
+P0446,2026-01-11,2026-01-15,Cardiology,Private,100,78,Dr. Das,No,MRI Scanner,30,4,78
+P0447,2026-03-23,2026-04-02,Neurology,ICU,80,43,Dr. Nair,No,MRI Scanner,16,10,53.75
+P0448,2026-02-26,2026-03-03,Oncology,Private,100,61,Dr. Khan,No,Nebulizer,29,5,61
+P0449,2026-06-16,2026-06-18,Dermatology,ICU,60,46,Dr. Khan,Yes,Skin Scanner,15,2,76.67
+P0450,2026-04-08,2026-04-22,Pediatrics,Private,60,48,Dr. Sharma,No,Nebulizer,30,14,80
+P0451,2026-05-11,2026-05-20,Pediatrics,ICU,150,65,Dr. Reddy,Yes,MRI Scanner,10,9,43.33
+P0452,2026-05-18,2026-05-28,Neurology,ICU,50,40,Dr. Khan,No,MRI Scanner,11,10,80
+P0453,2026-05-18,2026-06-02,Orthopedics,General,120,57,Dr. Das,No,ECG Machine,7,15,47.5
+P0454,2026-01-19,2026-01-21,Neurology,ICU,70,44,Dr. Patel,No,Heart Monitor,19,2,62.86
+P0455,2026-06-11,2026-06-19,Cardiology,Semi-Private,120,88,Dr. Rao,Yes,Skin Scanner,28,8,73.33
+P0456,2026-06-08,2026-06-11,Neurology,Private,50,42,Dr. Rao,No,Skin Scanner,14,3,84
+P0457,2026-06-05,2026-06-08,Dermatology,Semi-Private,90,84,Dr. Nair,Yes,EEG Machine,10,3,93.33
+P0458,2026-05-17,2026-05-22,Pediatrics,ICU,70,53,Dr. Patel,No,ECG Machine,22,5,75.71
+P0459,2026-05-23,2026-05-27,Cardiology,Semi-Private,60,26,Dr. Rao,No,Ventilator,28,4,43.33
+P0460,2026-03-30,2026-04-04,Orthopedics,ICU,120,113,Dr. Mehta,Yes,Radiation Machine,13,5,94.17
+P0461,2026-02-19,2026-02-22,Cardiology,Semi-Private,70,70,Dr. Rao,No,Skin Scanner,7,3,100
+P0462,2026-03-06,2026-03-09,Dermatology,Private,80,78,Dr. Reddy,Yes,Skin Scanner,25,3,97.5
+P0463,2026-03-02,2026-03-05,Neurology,ICU,90,75,Dr. Reddy,No,EEG Machine,15,3,83.33
+P0464,2026-06-07,2026-06-19,Orthopedics,Private,90,80,Dr. Reddy,No,X-Ray Machine,5,12,88.89
+P0465,2026-03-22,2026-03-27,Gynecology,Private,80,77,Dr. Reddy,Yes,Skin Scanner,28,5,96.25
+P0466,2026-03-26,2026-04-04,Oncology,Private,150,117,Dr. Das,Yes,X-Ray Machine,25,9,78
+P0467,2026-06-05,2026-06-08,Orthopedics,ICU,90,90,Dr. Patel,Yes,Fetal Monitor,7,3,100
+P0468,2026-01-05,2026-01-20,Gynecology,ICU,50,46,Dr. Sharma,No,Nebulizer,22,15,92
+P0469,2026-05-01,2026-05-13,Gynecology,ICU,70,51,Dr. Patel,Yes,EEG Machine,21,12,72.86
+P0470,2026-05-11,2026-05-14,Cardiology,ICU,120,94,Dr. Mehta,Yes,EEG Machine,10,3,78.33
+P0471,2026-02-15,2026-02-26,Oncology,General,70,58,Dr. Khan,No,Ventilator,7,11,82.86
+P0472,2026-03-09,2026-03-16,Emergency,Private,80,34,Dr. Nair,No,EEG Machine,6,7,42.5
+P0473,2026-01-11,2026-01-23,Pediatrics,Private,100,46,Dr. Mehta,No,Skin Scanner,17,12,46
+P0474,2026-04-04,2026-04-15,Pediatrics,Semi-Private,60,57,Dr. Khan,No,CT Scanner,16,11,95
+P0475,2026-05-05,2026-05-19,Cardiology,ICU,150,137,Dr. Das,Yes,Ventilator,7,14,91.33
+P0476,2026-05-12,2026-05-24,Orthopedics,ICU,90,49,Dr. Mehta,No,Radiation Machine,27,12,54.44
+P0477,2026-01-31,2026-02-12,Oncology,General,80,58,Dr. Das,No,EEG Machine,11,12,72.5
+P0478,2026-06-01,2026-06-05,Emergency,General,120,50,Dr. Mehta,Yes,X-Ray Machine,25,4,41.67
+P0479,2026-05-12,2026-05-14,Orthopedics,Private,70,31,Dr. Mehta,No,Radiation Machine,23,2,44.29
+P0480,2026-06-13,2026-06-15,Emergency,Semi-Private,90,41,Dr. Das,No,X-Ray Machine,12,2,45.56
+P0481,2026-04-16,2026-04-27,Orthopedics,Private,70,65,Dr. Mehta,No,EEG Machine,24,11,92.86
+P0482,2026-06-01,2026-06-04,Gynecology,ICU,80,56,Dr. Rao,Yes,Ventilator,21,3,70
+P0483,2026-05-10,2026-05-22,Neurology,ICU,120,67,Dr. Das,Yes,Nebulizer,21,12,55.83
+P0484,2026-01-31,2026-02-03,Orthopedics,General,150,144,Dr. Nair,No,CT Scanner,6,3,96
+P0485,2026-06-28,2026-07-08,Dermatology,Semi-Private,120,77,Dr. Reddy,Yes,Heart Monitor,9,10,64.17
+P0486,2026-03-07,2026-03-16,Pediatrics,Semi-Private,80,37,Dr. Patel,Yes,ECG Machine,27,9,46.25
+P0487,2026-01-02,2026-01-13,Cardiology,Semi-Private,60,57,Dr. Khan,No,Heart Monitor,16,11,95
+P0488,2026-01-28,2026-02-01,Pediatrics,Semi-Private,120,80,Dr. Reddy,No,Skin Scanner,17,4,66.67
+P0489,2026-02-22,2026-03-02,Oncology,Semi-Private,150,82,Dr. Patel,No,Radiation Machine,16,8,54.67
+P0490,2026-06-30,2026-07-08,Neurology,ICU,70,70,Dr. Das,Yes,MRI Scanner,11,8,100
+P0491,2026-05-11,2026-05-19,Cardiology,ICU,100,91,Dr. Nair,Yes,MRI Scanner,9,8,91
+P0492,2026-05-01,2026-05-12,Neurology,Private,120,59,Dr. Khan,No,MRI Scanner,24,11,49.17
+P0493,2026-01-10,2026-01-23,Pediatrics,General,120,99,Dr. Mehta,No,EEG Machine,5,13,82.5
+P0494,2026-02-21,2026-03-08,Cardiology,ICU,90,48,Dr. Mehta,Yes,CT Scanner,12,15,53.33
+P0495,2026-06-17,2026-06-19,Pediatrics,Semi-Private,70,33,Dr. Reddy,No,Heart Monitor,23,2,47.14
+P0496,2026-02-21,2026-03-03,Neurology,General,50,43,Dr. Patel,No,CT Scanner,13,10,86
+P0497,2026-02-27,2026-03-10,Gynecology,General,80,61,Dr. Patel,Yes,Heart Monitor,21,11,76.25
+P0498,2026-01-28,2026-02-07,Pediatrics,Private,60,56,Dr. Rao,No,Nebulizer,30,10,93.33
+P0499,2026-05-28,2026-06-03,Dermatology,ICU,150,108,Dr. Reddy,No,Skin Scanner,19,6,72
+P0500,2026-05-31,2026-06-15,Neurology,Private,50,35,Dr. Rao,No,Skin Scanner,30,15,70
+P0501,2026-02-26,2026-03-10,Gynecology,Private,80,52,Dr. Sharma,No,Ventilator,14,12,65
+P0502,2026-01-24,2026-02-01,Orthopedics,Semi-Private,100,44,Dr. Reddy,No,Ventilator,23,8,44
+P0503,2026-03-10,2026-03-14,Emergency,ICU,80,63,Dr. Khan,No,Ventilator,12,4,78.75
+P0504,2026-02-21,2026-03-08,Oncology,ICU,80,71,Dr. Rao,Yes,MRI Scanner,26,15,88.75
+P0505,2026-06-19,2026-06-28,Cardiology,Semi-Private,50,44,Dr. Reddy,No,EEG Machine,23,9,88
+P0506,2026-03-12,2026-03-21,Pediatrics,Semi-Private,70,60,Dr. Khan,Yes,ECG Machine,21,9,85.71
+P0507,2026-04-19,2026-04-28,Oncology,Semi-Private,50,36,Dr. Mehta,No,MRI Scanner,27,9,72
+P0508,2026-05-13,2026-05-22,Cardiology,General,100,84,Dr. Khan,No,Radiation Machine,8,9,84
+P0509,2026-03-25,2026-04-01,Pediatrics,ICU,90,47,Dr. Patel,No,Radiation Machine,15,7,52.22
+P0510,2026-04-04,2026-04-08,Emergency,Semi-Private,150,114,Dr. Reddy,No,Heart Monitor,13,4,76
+P0511,2026-04-26,2026-04-30,Emergency,General,70,64,Dr. Patel,Yes,Nebulizer,18,4,91.43
+P0512,2026-04-08,2026-04-13,Dermatology,General,70,37,Dr. Mehta,No,EEG Machine,9,5,52.86
+P0513,2026-06-11,2026-06-21,Dermatology,Private,100,90,Dr. Patel,Yes,Heart Monitor,8,10,90
+P0514,2026-06-26,2026-06-30,Pediatrics,Semi-Private,50,26,Dr. Rao,No,Fetal Monitor,15,4,52
+P0515,2026-03-08,2026-03-15,Pediatrics,Private,100,75,Dr. Sharma,No,MRI Scanner,16,7,75
+P0516,2026-06-23,2026-07-04,Orthopedics,Private,80,68,Dr. Reddy,No,Skin Scanner,21,11,85
+P0517,2026-05-05,2026-05-19,Gynecology,Private,150,70,Dr. Das,Yes,X-Ray Machine,25,14,46.67
+P0518,2026-03-28,2026-04-05,Neurology,ICU,120,57,Dr. Reddy,Yes,CT Scanner,15,8,47.5
+P0519,2026-06-17,2026-06-23,Gynecology,Private,90,74,Dr. Das,No,Fetal Monitor,23,6,82.22
+P0520,2026-05-14,2026-05-23,Orthopedics,General,120,69,Dr. Mehta,Yes,Skin Scanner,13,9,57.5
+P0521,2026-06-29,2026-07-12,Orthopedics,Semi-Private,60,37,Dr. Rao,Yes,MRI Scanner,20,13,61.67
+P0522,2026-05-21,2026-05-23,Gynecology,General,50,44,Dr. Rao,No,Radiation Machine,9,2,88
+P0523,2026-01-22,2026-02-03,Emergency,ICU,120,87,Dr. Patel,No,Skin Scanner,9,12,72.5
+P0524,2026-02-03,2026-02-13,Cardiology,Private,70,29,Dr. Reddy,No,EEG Machine,22,10,41.43
+P0525,2026-03-11,2026-03-21,Orthopedics,Semi-Private,150,77,Dr. Nair,No,CT Scanner,20,10,51.33
+P0526,2026-05-19,2026-05-24,Pediatrics,Private,60,52,Dr. Nair,No,X-Ray Machine,14,5,86.67
+P0527,2026-01-03,2026-01-05,Pediatrics,Semi-Private,70,50,Dr. Sharma,No,EEG Machine,14,2,71.43
+P0528,2026-01-03,2026-01-17,Emergency,General,120,85,Dr. Reddy,Yes,Heart Monitor,22,14,70.83
+P0529,2026-04-22,2026-04-30,Gynecology,Semi-Private,80,42,Dr. Khan,No,MRI Scanner,18,8,52.5
+P0530,2026-06-10,2026-06-15,Pediatrics,Semi-Private,90,54,Dr. Khan,Yes,X-Ray Machine,9,5,60
+P0531,2026-03-16,2026-03-19,Dermatology,Private,150,139,Dr. Das,Yes,CT Scanner,5,3,92.67
+P0532,2026-02-08,2026-02-10,Neurology,Private,50,25,Dr. Patel,Yes,Fetal Monitor,19,2,50
+P0533,2026-01-03,2026-01-08,Cardiology,Semi-Private,60,33,Dr. Khan,No,Heart Monitor,14,5,55
+P0534,2026-05-08,2026-05-15,Cardiology,Private,150,149,Dr. Rao,Yes,ECG Machine,13,7,99.33
+P0535,2026-04-11,2026-04-14,Emergency,Private,150,83,Dr. Nair,Yes,MRI Scanner,29,3,55.33
+P0536,2026-03-05,2026-03-13,Cardiology,ICU,150,91,Dr. Das,Yes,Nebulizer,26,8,60.67
+P0537,2026-02-23,2026-03-04,Oncology,ICU,120,87,Dr. Sharma,Yes,Ultrasound,20,9,72.5
+P0538,2026-06-13,2026-06-19,Cardiology,ICU,80,55,Dr. Rao,Yes,Skin Scanner,18,6,68.75
+P0539,2026-03-25,2026-03-27,Neurology,Semi-Private,70,45,Dr. Khan,Yes,ECG Machine,23,2,64.29
+P0540,2026-06-26,2026-07-05,Neurology,ICU,70,51,Dr. Mehta,No,MRI Scanner,26,9,72.86
+P0541,2026-06-08,2026-06-15,Oncology,ICU,50,21,Dr. Rao,Yes,EEG Machine,12,7,42
+P0542,2026-03-23,2026-04-02,Dermatology,ICU,100,91,Dr. Sharma,No,CT Scanner,28,10,91
+P0543,2026-02-04,2026-02-10,Dermatology,Private,50,35,Dr. Das,Yes,Radiation Machine,10,6,70
+P0544,2026-05-20,2026-05-27,Dermatology,Private,100,86,Dr. Mehta,Yes,Nebulizer,9,7,86
+P0545,2026-04-26,2026-05-02,Oncology,Semi-Private,90,70,Dr. Sharma,No,Fetal Monitor,10,6,77.78
+P0546,2026-01-05,2026-01-16,Emergency,Private,100,89,Dr. Rao,No,Ventilator,21,11,89
+P0547,2026-06-24,2026-07-03,Pediatrics,Private,70,67,Dr. Nair,No,MRI Scanner,8,9,95.71
+P0548,2026-05-14,2026-05-26,Orthopedics,ICU,60,26,Dr. Sharma,Yes,MRI Scanner,20,12,43.33
+P0549,2026-02-19,2026-02-22,Gynecology,Semi-Private,50,38,Dr. Patel,Yes,CT Scanner,12,3,76
+P0550,2026-06-05,2026-06-18,Emergency,Semi-Private,60,24,Dr. Rao,No,Skin Scanner,6,13,40
+P0551,2026-04-03,2026-04-13,Cardiology,Private,120,95,Dr. Sharma,Yes,Ultrasound,7,10,79.17
+P0552,2026-02-25,2026-03-07,Emergency,Semi-Private,60,30,Dr. Khan,Yes,Nebulizer,26,10,50
+P0553,2026-03-05,2026-03-16,Gynecology,General,70,63,Dr. Reddy,No,Fetal Monitor,26,11,90
+P0554,2026-04-20,2026-04-23,Gynecology,Private,70,39,Dr. Mehta,No,CT Scanner,15,3,55.71
+P0555,2026-05-21,2026-05-28,Gynecology,Private,100,66,Dr. Khan,Yes,Heart Monitor,29,7,66
+P0556,2026-05-21,2026-06-03,Dermatology,Semi-Private,90,59,Dr. Nair,Yes,Fetal Monitor,6,13,65.56
+P0557,2026-03-14,2026-03-25,Orthopedics,Private,50,36,Dr. Sharma,No,Ventilator,11,11,72
+P0558,2026-03-22,2026-03-24,Orthopedics,General,90,71,Dr. Sharma,No,CT Scanner,9,2,78.89
+P0559,2026-02-05,2026-02-11,Emergency,ICU,100,96,Dr. Patel,No,MRI Scanner,23,6,96
+P0560,2026-04-13,2026-04-24,Neurology,Private,80,78,Dr. Das,Yes,EEG Machine,27,11,97.5
+P0561,2026-06-29,2026-07-10,Cardiology,Semi-Private,60,43,Dr. Rao,Yes,CT Scanner,16,11,71.67
+P0562,2026-04-22,2026-04-30,Cardiology,Semi-Private,60,38,Dr. Sharma,No,Nebulizer,6,8,63.33
+P0563,2026-03-23,2026-04-02,Emergency,ICU,70,48,Dr. Sharma,No,EEG Machine,29,10,68.57
+P0564,2026-06-02,2026-06-13,Gynecology,Private,60,38,Dr. Nair,Yes,X-Ray Machine,15,11,63.33
+P0565,2026-01-22,2026-01-31,Gynecology,Private,50,37,Dr. Rao,No,Nebulizer,18,9,74
+P0566,2026-06-28,2026-07-02,Emergency,Semi-Private,70,58,Dr. Nair,Yes,Nebulizer,24,4,82.86
+P0567,2026-05-15,2026-05-20,Pediatrics,Semi-Private,80,36,Dr. Reddy,Yes,MRI Scanner,26,5,45
+P0568,2026-04-16,2026-04-24,Emergency,Private,100,62,Dr. Reddy,Yes,Ultrasound,10,8,62
+P0569,2026-03-31,2026-04-11,Orthopedics,Semi-Private,150,139,Dr. Sharma,Yes,Ventilator,26,11,92.67
+P0570,2026-04-06,2026-04-10,Cardiology,ICU,60,31,Dr. Mehta,No,ECG Machine,15,4,51.67
+P0571,2026-06-27,2026-07-11,Dermatology,Semi-Private,60,43,Dr. Sharma,No,Ventilator,28,14,71.67
+P0572,2026-05-18,2026-05-23,Pediatrics,Semi-Private,80,66,Dr. Mehta,Yes,Heart Monitor,23,5,82.5
+P0573,2026-06-19,2026-06-29,Orthopedics,General,50,28,Dr. Patel,Yes,Fetal Monitor,24,10,56
+P0574,2026-03-11,2026-03-13,Cardiology,General,150,143,Dr. Nair,No,Skin Scanner,26,2,95.33
+P0575,2026-04-03,2026-04-18,Pediatrics,Semi-Private,60,25,Dr. Khan,No,Nebulizer,27,15,41.67
+P0576,2026-01-26,2026-02-02,Neurology,ICU,150,136,Dr. Khan,No,Nebulizer,27,7,90.67
+P0577,2026-01-06,2026-01-08,Pediatrics,Private,80,65,Dr. Das,No,Fetal Monitor,10,2,81.25
+P0578,2026-01-05,2026-01-12,Pediatrics,ICU,100,62,Dr. Patel,Yes,Skin Scanner,13,7,62
+P0579,2026-04-10,2026-04-25,Pediatrics,ICU,50,50,Dr. Mehta,No,Heart Monitor,26,15,100
+P0580,2026-02-05,2026-02-08,Emergency,Semi-Private,120,114,Dr. Khan,Yes,Heart Monitor,14,3,95
+P0581,2026-06-04,2026-06-11,Orthopedics,ICU,150,129,Dr. Mehta,Yes,X-Ray Machine,14,7,86
+P0582,2026-06-26,2026-07-09,Orthopedics,ICU,70,55,Dr. Reddy,Yes,Nebulizer,22,13,78.57
+P0583,2026-01-31,2026-02-04,Orthopedics,General,100,93,Dr. Reddy,No,Heart Monitor,14,4,93
+P0584,2026-04-24,2026-05-07,Emergency,General,90,45,Dr. Mehta,Yes,ECG Machine,29,13,50
+P0585,2026-06-06,2026-06-17,Emergency,ICU,90,74,Dr. Khan,Yes,CT Scanner,7,11,82.22
+P0586,2026-06-26,2026-07-10,Dermatology,Private,150,77,Dr. Mehta,No,EEG Machine,20,14,51.33
+P0587,2026-02-05,2026-02-09,Cardiology,Semi-Private,80,46,Dr. Sharma,No,Heart Monitor,12,4,57.5
+P0588,2026-06-21,2026-06-26,Orthopedics,Semi-Private,80,36,Dr. Das,No,EEG Machine,12,5,45
+P0589,2026-04-20,2026-04-28,Gynecology,Private,50,39,Dr. Nair,Yes,Nebulizer,8,8,78
+P0590,2026-04-26,2026-05-05,Emergency,Semi-Private,50,48,Dr. Sharma,No,Nebulizer,29,9,96
+P0591,2026-06-11,2026-06-13,Dermatology,Semi-Private,80,50,Dr. Patel,No,EEG Machine,10,2,62.5
+P0592,2026-04-19,2026-04-25,Orthopedics,Semi-Private,50,42,Dr. Das,Yes,Fetal Monitor,21,6,84
+P0593,2026-01-29,2026-02-02,Gynecology,Private,70,53,Dr. Das,Yes,X-Ray Machine,19,4,75.71
+P0594,2026-06-01,2026-06-14,Neurology,Private,80,61,Dr. Reddy,Yes,Fetal Monitor,28,13,76.25
+P0595,2026-02-01,2026-02-04,Oncology,General,60,52,Dr. Nair,Yes,Heart Monitor,22,3,86.67
+P0596,2026-04-08,2026-04-10,Orthopedics,ICU,70,49,Dr. Mehta,Yes,Fetal Monitor,6,2,70
+P0597,2026-04-18,2026-04-24,Dermatology,Private,90,82,Dr. Mehta,Yes,X-Ray Machine,11,6,91.11
+P0598,2026-01-01,2026-01-12,Dermatology,Semi-Private,90,36,Dr. Das,Yes,Radiation Machine,20,11,40
+P0599,2026-03-02,2026-03-07,Gynecology,Semi-Private,150,118,Dr. Rao,Yes,Ventilator,22,5,78.67
+P0600,2026-03-13,2026-03-24,Orthopedics,ICU,80,35,Dr. Sharma,No,ECG Machine,9,11,43.75
+P0601,2026-01-09,2026-01-21,Neurology,General,90,57,Dr. Rao,No,X-Ray Machine,10,12,63.33
+P0602,2026-06-22,2026-06-28,Oncology,General,70,57,Dr. Rao,No,CT Scanner,16,6,81.43
+P0603,2026-04-08,2026-04-23,Neurology,Private,60,51,Dr. Das,Yes,MRI Scanner,27,15,85
+P0604,2026-03-12,2026-03-19,Emergency,ICU,120,115,Dr. Sharma,Yes,Radiation Machine,28,7,95.83
+P0605,2026-06-11,2026-06-21,Pediatrics,Semi-Private,60,54,Dr. Reddy,No,Nebulizer,23,10,90
+P0606,2026-06-09,2026-06-16,Dermatology,Semi-Private,70,67,Dr. Das,Yes,Radiation Machine,12,7,95.71
+P0607,2026-03-16,2026-03-21,Cardiology,Semi-Private,50,23,Dr. Rao,Yes,Radiation Machine,18,5,46
+P0608,2026-04-16,2026-04-18,Emergency,General,100,62,Dr. Khan,No,Ultrasound,30,2,62
+P0609,2026-01-18,2026-01-24,Oncology,General,90,68,Dr. Rao,No,CT Scanner,17,6,75.56
+P0610,2026-05-26,2026-06-06,Orthopedics,ICU,50,46,Dr. Reddy,No,Skin Scanner,20,11,92
+P0611,2026-05-02,2026-05-16,Orthopedics,Semi-Private,50,40,Dr. Mehta,No,Nebulizer,15,14,80
+P0612,2026-04-29,2026-05-13,Pediatrics,Private,120,55,Dr. Sharma,Yes,Radiation Machine,26,14,45.83
+P0613,2026-03-26,2026-04-09,Orthopedics,Private,100,44,Dr. Sharma,No,Heart Monitor,25,14,44
+P0614,2026-05-17,2026-06-01,Gynecology,ICU,70,64,Dr. Rao,No,Fetal Monitor,15,15,91.43
+P0615,2026-01-09,2026-01-15,Dermatology,ICU,120,59,Dr. Reddy,No,Ultrasound,11,6,49.17
+P0616,2026-05-15,2026-05-21,Oncology,General,70,35,Dr. Khan,Yes,EEG Machine,21,6,50
+P0617,2026-01-07,2026-01-21,Orthopedics,ICU,150,124,Dr. Reddy,No,Fetal Monitor,21,14,82.67
+P0618,2026-03-21,2026-04-04,Neurology,ICU,100,49,Dr. Khan,Yes,EEG Machine,17,14,49
+P0619,2026-05-14,2026-05-17,Cardiology,General,50,29,Dr. Reddy,No,ECG Machine,8,3,58
+P0620,2026-05-14,2026-05-28,Pediatrics,ICU,90,37,Dr. Reddy,Yes,Ventilator,14,14,41.11
+P0621,2026-03-12,2026-03-22,Dermatology,General,100,89,Dr. Patel,Yes,X-Ray Machine,13,10,89
+P0622,2026-01-30,2026-02-01,Oncology,Private,60,37,Dr. Patel,Yes,Fetal Monitor,30,2,61.67
+P0623,2026-03-14,2026-03-25,Neurology,Private,80,42,Dr. Reddy,No,ECG Machine,9,11,52.5
+P0624,2026-01-08,2026-01-17,Gynecology,General,50,23,Dr. Rao,No,Heart Monitor,10,9,46
+P0625,2026-06-30,2026-07-11,Oncology,Private,150,138,Dr. Reddy,Yes,Fetal Monitor,29,11,92
+P0626,2026-06-21,2026-07-05,Orthopedics,General,60,53,Dr. Das,Yes,EEG Machine,14,14,88.33
+P0627,2026-06-25,2026-07-07,Emergency,ICU,150,120,Dr. Mehta,No,CT Scanner,17,12,80
+P0628,2026-02-16,2026-03-01,Oncology,Semi-Private,100,90,Dr. Das,Yes,MRI Scanner,20,13,90
+P0629,2026-01-29,2026-02-05,Orthopedics,Private,150,119,Dr. Reddy,Yes,Nebulizer,8,7,79.33
+P0630,2026-04-14,2026-04-29,Neurology,Private,60,44,Dr. Das,No,Radiation Machine,18,15,73.33
+P0631,2026-03-03,2026-03-14,Orthopedics,Semi-Private,80,67,Dr. Nair,Yes,CT Scanner,11,11,83.75
+P0632,2026-06-27,2026-07-08,Oncology,ICU,120,103,Dr. Mehta,Yes,Fetal Monitor,27,11,85.83
+P0633,2026-05-27,2026-06-11,Dermatology,Private,150,74,Dr. Rao,No,X-Ray Machine,14,15,49.33
+P0634,2026-04-14,2026-04-17,Oncology,Semi-Private,60,48,Dr. Sharma,Yes,Ventilator,9,3,80
+P0635,2026-05-29,2026-06-12,Orthopedics,ICU,50,44,Dr. Das,No,Heart Monitor,24,14,88
+P0636,2026-05-28,2026-06-06,Oncology,Private,80,45,Dr. Patel,No,Fetal Monitor,16,9,56.25
+P0637,2026-01-23,2026-02-03,Gynecology,ICU,50,39,Dr. Patel,Yes,CT Scanner,22,11,78
+P0638,2026-01-14,2026-01-16,Pediatrics,General,100,47,Dr. Khan,No,Fetal Monitor,23,2,47
+P0639,2026-04-11,2026-04-23,Gynecology,Semi-Private,100,85,Dr. Nair,No,Nebulizer,11,12,85
+P0640,2026-06-19,2026-06-23,Emergency,Semi-Private,150,77,Dr. Reddy,No,X-Ray Machine,14,4,51.33
+P0641,2026-06-21,2026-06-25,Neurology,General,70,28,Dr. Mehta,No,Skin Scanner,18,4,40
+P0642,2026-02-04,2026-02-07,Gynecology,Semi-Private,70,69,Dr. Nair,Yes,EEG Machine,21,3,98.57
+P0643,2026-04-19,2026-04-29,Oncology,ICU,150,109,Dr. Mehta,No,Radiation Machine,5,10,72.67
+P0644,2026-05-28,2026-06-06,Pediatrics,Semi-Private,80,77,Dr. Reddy,Yes,ECG Machine,23,9,96.25
+P0645,2026-05-04,2026-05-17,Dermatology,General,100,47,Dr. Mehta,No,EEG Machine,21,13,47
+P0646,2026-01-21,2026-01-31,Dermatology,General,60,39,Dr. Patel,Yes,CT Scanner,22,10,65
+P0647,2026-01-03,2026-01-12,Dermatology,Private,150,125,Dr. Nair,No,Ultrasound,14,9,83.33
+P0648,2026-02-12,2026-02-14,Pediatrics,General,90,82,Dr. Das,Yes,Radiation Machine,6,2,91.11
+P0649,2026-06-18,2026-06-24,Dermatology,General,50,29,Dr. Mehta,Yes,Ultrasound,13,6,58
+P0650,2026-02-03,2026-02-14,Pediatrics,General,90,53,Dr. Rao,Yes,Radiation Machine,28,11,58.89
+P0651,2026-02-08,2026-02-20,Orthopedics,Private,150,107,Dr. Khan,No,X-Ray Machine,30,12,71.33
+P0652,2026-05-16,2026-05-31,Neurology,ICU,50,30,Dr. Mehta,No,Heart Monitor,29,15,60
+P0653,2026-04-09,2026-04-14,Orthopedics,ICU,150,141,Dr. Reddy,Yes,Skin Scanner,13,5,94
+P0654,2026-01-30,2026-02-01,Gynecology,Semi-Private,70,57,Dr. Patel,No,Fetal Monitor,29,2,81.43
+P0655,2026-05-17,2026-05-22,Dermatology,Private,120,97,Dr. Mehta,No,ECG Machine,14,5,80.83
+P0656,2026-04-25,2026-05-03,Cardiology,General,100,73,Dr. Reddy,No,Radiation Machine,25,8,73
+P0657,2026-03-11,2026-03-18,Neurology,Private,90,53,Dr. Nair,No,Skin Scanner,28,7,58.89
+P0658,2026-03-03,2026-03-16,Oncology,ICU,80,65,Dr. Reddy,Yes,Skin Scanner,5,13,81.25
+P0659,2026-01-18,2026-01-20,Neurology,Semi-Private,120,60,Dr. Reddy,Yes,Fetal Monitor,14,2,50
+P0660,2026-03-06,2026-03-11,Neurology,General,50,20,Dr. Khan,Yes,Fetal Monitor,8,5,40
+P0661,2026-01-23,2026-02-07,Orthopedics,General,70,52,Dr. Mehta,No,Ultrasound,19,15,74.29
+P0662,2026-06-19,2026-06-22,Gynecology,Private,150,95,Dr. Patel,Yes,MRI Scanner,13,3,63.33
+P0663,2026-01-16,2026-01-24,Cardiology,Private,120,90,Dr. Patel,Yes,EEG Machine,7,8,75
+P0664,2026-05-06,2026-05-11,Dermatology,General,120,70,Dr. Mehta,No,Ventilator,24,5,58.33
+P0665,2026-06-14,2026-06-17,Neurology,General,150,93,Dr. Rao,Yes,Radiation Machine,28,3,62
+P0666,2026-03-06,2026-03-20,Dermatology,ICU,150,62,Dr. Sharma,Yes,Skin Scanner,17,14,41.33
+P0667,2026-03-10,2026-03-14,Gynecology,General,100,97,Dr. Das,No,Heart Monitor,17,4,97
+P0668,2026-01-18,2026-01-28,Gynecology,Semi-Private,80,32,Dr. Rao,No,CT Scanner,26,10,40
+P0669,2026-03-19,2026-03-27,Neurology,Private,50,40,Dr. Reddy,Yes,EEG Machine,29,8,80
+P0670,2026-03-16,2026-03-28,Cardiology,Semi-Private,80,43,Dr. Khan,No,Fetal Monitor,17,12,53.75
+P0671,2026-01-28,2026-02-09,Neurology,Semi-Private,100,71,Dr. Khan,Yes,ECG Machine,11,12,71
+P0672,2026-01-07,2026-01-20,Gynecology,General,80,63,Dr. Patel,No,Nebulizer,30,13,78.75
+P0673,2026-04-26,2026-04-28,Cardiology,Private,50,30,Dr. Sharma,No,MRI Scanner,11,2,60
+P0674,2026-06-17,2026-06-29,Orthopedics,ICU,150,146,Dr. Rao,Yes,Fetal Monitor,9,12,97.33
+P0675,2026-05-06,2026-05-18,Cardiology,ICU,50,35,Dr. Mehta,Yes,X-Ray Machine,25,12,70
+P0676,2026-01-13,2026-01-19,Orthopedics,General,60,53,Dr. Rao,Yes,EEG Machine,24,6,88.33
+P0677,2026-06-07,2026-06-12,Gynecology,Private,60,36,Dr. Nair,No,MRI Scanner,26,5,60
+P0678,2026-05-28,2026-06-07,Emergency,General,70,48,Dr. Mehta,No,MRI Scanner,8,10,68.57
+P0679,2026-03-12,2026-03-16,Oncology,ICU,120,69,Dr. Das,Yes,Radiation Machine,6,4,57.5
+P0680,2026-02-04,2026-02-07,Cardiology,Semi-Private,120,68,Dr. Rao,Yes,ECG Machine,10,3,56.67
+P0681,2026-01-23,2026-02-05,Dermatology,ICU,90,62,Dr. Khan,Yes,Skin Scanner,13,13,68.89
+P0682,2026-05-14,2026-05-23,Orthopedics,General,120,78,Dr. Mehta,No,Radiation Machine,7,9,65
+P0683,2026-06-10,2026-06-25,Gynecology,General,90,58,Dr. Khan,Yes,MRI Scanner,21,15,64.44
+P0684,2026-01-25,2026-02-05,Emergency,Semi-Private,100,95,Dr. Khan,No,ECG Machine,11,11,95
+P0685,2026-01-29,2026-02-12,Dermatology,ICU,70,58,Dr. Mehta,Yes,ECG Machine,25,14,82.86
+P0686,2026-04-04,2026-04-10,Pediatrics,Private,80,59,Dr. Das,Yes,MRI Scanner,28,6,73.75
+P0687,2026-01-14,2026-01-24,Cardiology,Semi-Private,70,38,Dr. Rao,Yes,Ventilator,28,10,54.29
+P0688,2026-04-24,2026-05-05,Emergency,Private,100,66,Dr. Khan,Yes,CT Scanner,12,11,66
+P0689,2026-01-26,2026-01-31,Gynecology,ICU,120,73,Dr. Rao,No,Radiation Machine,20,5,60.83
+P0690,2026-01-14,2026-01-22,Dermatology,ICU,70,41,Dr. Nair,No,X-Ray Machine,19,8,58.57
+P0691,2026-02-19,2026-03-03,Emergency,Private,100,57,Dr. Mehta,Yes,Fetal Monitor,23,12,57
+P0692,2026-01-16,2026-01-22,Dermatology,Semi-Private,70,35,Dr. Nair,Yes,CT Scanner,12,6,50
+P0693,2026-03-17,2026-03-28,Orthopedics,ICU,70,68,Dr. Rao,No,Nebulizer,20,11,97.14
+P0694,2026-02-25,2026-03-08,Pediatrics,General,150,119,Dr. Nair,Yes,Ventilator,15,11,79.33
+P0695,2026-04-22,2026-05-03,Orthopedics,General,80,69,Dr. Nair,Yes,ECG Machine,20,11,86.25
+P0696,2026-05-10,2026-05-12,Gynecology,Semi-Private,120,115,Dr. Rao,No,EEG Machine,12,2,95.83
+P0697,2026-01-22,2026-02-01,Gynecology,ICU,50,42,Dr. Mehta,No,Ultrasound,12,10,84
+P0698,2026-06-15,2026-06-18,Pediatrics,ICU,50,35,Dr. Das,Yes,EEG Machine,19,3,70
+P0699,2026-02-05,2026-02-20,Oncology,Semi-Private,120,71,Dr. Sharma,Yes,Heart Monitor,27,15,59.17
+P0700,2026-03-27,2026-04-06,Gynecology,Private,50,29,Dr. Khan,Yes,Radiation Machine,15,10,58
+P0701,2026-01-15,2026-01-25,Cardiology,General,100,96,Dr. Nair,No,EEG Machine,24,10,96
+P0702,2026-01-11,2026-01-18,Neurology,ICU,100,51,Dr. Mehta,No,Ventilator,22,7,51
+P0703,2026-01-30,2026-02-11,Emergency,ICU,150,134,Dr. Reddy,No,Ultrasound,21,12,89.33
+P0704,2026-06-24,2026-07-02,Neurology,Private,90,39,Dr. Reddy,No,EEG Machine,21,8,43.33
+P0705,2026-05-15,2026-05-30,Pediatrics,Semi-Private,60,54,Dr. Reddy,Yes,Ventilator,19,15,90
+P0706,2026-01-23,2026-01-26,Pediatrics,General,120,70,Dr. Rao,Yes,Ultrasound,8,3,58.33
+P0707,2026-06-28,2026-07-02,Emergency,General,150,79,Dr. Patel,No,Skin Scanner,22,4,52.67
+P0708,2026-02-03,2026-02-12,Dermatology,General,100,66,Dr. Patel,Yes,MRI Scanner,5,9,66
+P0709,2026-03-01,2026-03-16,Oncology,Private,100,66,Dr. Das,No,EEG Machine,14,15,66
+P0710,2026-05-26,2026-05-30,Pediatrics,ICU,90,46,Dr. Das,No,Ultrasound,29,4,51.11
+P0711,2026-01-13,2026-01-17,Dermatology,ICU,100,58,Dr. Mehta,No,X-Ray Machine,10,4,58
+P0712,2026-06-27,2026-07-09,Emergency,General,70,38,Dr. Sharma,No,Radiation Machine,9,12,54.29
+P0713,2026-04-23,2026-04-29,Emergency,General,100,51,Dr. Reddy,No,X-Ray Machine,16,6,51
+P0714,2026-04-25,2026-05-05,Pediatrics,General,70,62,Dr. Sharma,No,EEG Machine,29,10,88.57
+P0715,2026-02-07,2026-02-16,Cardiology,Private,100,49,Dr. Patel,No,Ultrasound,29,9,49
+P0716,2026-05-27,2026-06-08,Dermatology,Private,70,64,Dr. Rao,No,ECG Machine,9,12,91.43
+P0717,2026-06-23,2026-07-03,Cardiology,Semi-Private,60,43,Dr. Khan,No,CT Scanner,7,10,71.67
+P0718,2026-03-25,2026-03-27,Emergency,Private,80,69,Dr. Khan,Yes,MRI Scanner,22,2,86.25
+P0719,2026-04-25,2026-05-07,Gynecology,ICU,60,56,Dr. Das,No,Radiation Machine,24,12,93.33
+P0720,2026-05-11,2026-05-13,Orthopedics,Semi-Private,100,65,Dr. Reddy,No,CT Scanner,5,2,65
+P0721,2026-03-14,2026-03-21,Dermatology,General,100,59,Dr. Khan,No,Fetal Monitor,18,7,59
+P0722,2026-04-24,2026-04-30,Gynecology,ICU,70,55,Dr. Rao,Yes,Ventilator,14,6,78.57
+P0723,2026-05-02,2026-05-17,Gynecology,General,100,44,Dr. Sharma,No,Skin Scanner,13,15,44
+P0724,2026-04-17,2026-04-21,Orthopedics,ICU,150,150,Dr. Mehta,No,Ultrasound,22,4,100
+P0725,2026-05-06,2026-05-08,Pediatrics,Semi-Private,90,89,Dr. Das,Yes,ECG Machine,30,2,98.89
+P0726,2026-01-01,2026-01-05,Dermatology,General,90,55,Dr. Patel,No,X-Ray Machine,20,4,61.11
+P0727,2026-06-26,2026-07-08,Neurology,Private,80,33,Dr. Das,Yes,Radiation Machine,28,12,41.25
+P0728,2026-04-03,2026-04-14,Gynecology,Private,150,132,Dr. Das,Yes,CT Scanner,21,11,88
+P0729,2026-05-28,2026-05-30,Cardiology,ICU,90,46,Dr. Reddy,No,Fetal Monitor,9,2,51.11
+P0730,2026-04-02,2026-04-06,Oncology,Semi-Private,50,28,Dr. Reddy,Yes,Ultrasound,14,4,56
+P0731,2026-05-16,2026-05-28,Emergency,ICU,60,56,Dr. Rao,Yes,Nebulizer,15,12,93.33
+P0732,2026-03-22,2026-04-06,Oncology,General,90,53,Dr. Reddy,Yes,ECG Machine,9,15,58.89
+P0733,2026-05-13,2026-05-19,Dermatology,Semi-Private,100,89,Dr. Reddy,Yes,MRI Scanner,11,6,89
+P0734,2026-02-09,2026-02-19,Neurology,Semi-Private,80,44,Dr. Das,Yes,MRI Scanner,9,10,55
+P0735,2026-01-05,2026-01-14,Oncology,ICU,100,59,Dr. Das,No,X-Ray Machine,27,9,59
+P0736,2026-03-19,2026-03-21,Orthopedics,ICU,60,38,Dr. Khan,No,X-Ray Machine,11,2,63.33
+P0737,2026-02-03,2026-02-06,Neurology,General,120,62,Dr. Das,No,ECG Machine,11,3,51.67
+P0738,2026-01-28,2026-01-30,Neurology,Private,50,35,Dr. Sharma,Yes,Ultrasound,26,2,70
+P0739,2026-01-03,2026-01-17,Emergency,ICU,60,31,Dr. Mehta,No,ECG Machine,7,14,51.67
+P0740,2026-02-07,2026-02-22,Oncology,Private,90,73,Dr. Mehta,Yes,Nebulizer,23,15,81.11
+P0741,2026-01-18,2026-01-21,Emergency,ICU,50,36,Dr. Patel,Yes,Nebulizer,5,3,72
+P0742,2026-01-26,2026-01-31,Orthopedics,Semi-Private,150,106,Dr. Rao,Yes,CT Scanner,17,5,70.67
+P0743,2026-04-19,2026-04-24,Neurology,Private,80,58,Dr. Rao,No,MRI Scanner,21,5,72.5
+P0744,2026-02-04,2026-02-13,Pediatrics,General,100,85,Dr. Rao,No,EEG Machine,8,9,85
+P0745,2026-04-09,2026-04-15,Pediatrics,Semi-Private,150,136,Dr. Khan,No,Ultrasound,18,6,90.67
+P0746,2026-02-18,2026-03-05,Oncology,ICU,60,54,Dr. Sharma,No,Skin Scanner,8,15,90
+P0747,2026-04-12,2026-04-21,Orthopedics,Semi-Private,60,31,Dr. Nair,Yes,Fetal Monitor,10,9,51.67
+P0748,2026-01-17,2026-01-24,Emergency,Semi-Private,80,53,Dr. Rao,Yes,Heart Monitor,28,7,66.25
+P0749,2026-05-08,2026-05-14,Gynecology,Private,90,84,Dr. Das,No,EEG Machine,21,6,93.33
+P0750,2026-03-13,2026-03-17,Neurology,Private,150,73,Dr. Das,No,Ventilator,25,4,48.67
+P0751,2026-02-04,2026-02-06,Neurology,Semi-Private,60,27,Dr. Sharma,Yes,Heart Monitor,24,2,45
+P0752,2026-06-23,2026-06-30,Neurology,General,70,47,Dr. Das,No,Ventilator,14,7,67.14
+P0753,2026-06-19,2026-06-28,Pediatrics,Private,150,124,Dr. Sharma,Yes,Heart Monitor,8,9,82.67
+P0754,2026-04-09,2026-04-18,Gynecology,Semi-Private,100,94,Dr. Das,Yes,ECG Machine,10,9,94
+P0755,2026-05-23,2026-06-04,Orthopedics,Semi-Private,90,81,Dr. Nair,Yes,Ultrasound,27,12,90
+P0756,2026-04-10,2026-04-19,Dermatology,Semi-Private,60,60,Dr. Das,Yes,Nebulizer,6,9,100
+P0757,2026-04-11,2026-04-17,Gynecology,Private,150,135,Dr. Patel,No,ECG Machine,5,6,90
+P0758,2026-06-01,2026-06-03,Oncology,General,70,51,Dr. Reddy,No,MRI Scanner,18,2,72.86
+P0759,2026-03-30,2026-04-06,Cardiology,ICU,120,92,Dr. Khan,Yes,Skin Scanner,14,7,76.67
+P0760,2026-06-01,2026-06-04,Neurology,Private,60,43,Dr. Mehta,Yes,Nebulizer,15,3,71.67
+P0761,2026-01-10,2026-01-19,Gynecology,Private,120,120,Dr. Sharma,No,Radiation Machine,5,9,100
+P0762,2026-03-23,2026-03-31,Neurology,Semi-Private,120,89,Dr. Rao,Yes,CT Scanner,20,8,74.17
+P0763,2026-05-09,2026-05-23,Pediatrics,Private,100,50,Dr. Nair,Yes,EEG Machine,25,14,50
+P0764,2026-01-20,2026-02-04,Pediatrics,General,80,50,Dr. Patel,No,Ventilator,24,15,62.5
+P0765,2026-01-24,2026-02-06,Pediatrics,General,60,45,Dr. Das,No,Ventilator,16,13,75
+P0766,2026-01-20,2026-02-01,Pediatrics,Semi-Private,90,68,Dr. Reddy,Yes,Heart Monitor,17,12,75.56
+P0767,2026-03-06,2026-03-17,Orthopedics,General,150,145,Dr. Mehta,No,Ventilator,26,11,96.67
+P0768,2026-04-30,2026-05-06,Cardiology,ICU,120,120,Dr. Reddy,No,X-Ray Machine,12,6,100
+P0769,2026-02-08,2026-02-21,Gynecology,Semi-Private,90,90,Dr. Reddy,Yes,Skin Scanner,11,13,100
+P0770,2026-04-16,2026-04-22,Orthopedics,Private,90,77,Dr. Khan,No,Ventilator,8,6,85.56
+P0771,2026-02-08,2026-02-13,Pediatrics,Semi-Private,50,27,Dr. Das,No,Heart Monitor,25,5,54
+P0772,2026-01-10,2026-01-15,Orthopedics,General,70,45,Dr. Patel,No,Skin Scanner,22,5,64.29
+P0773,2026-02-15,2026-02-27,Dermatology,General,50,50,Dr. Sharma,Yes,CT Scanner,24,12,100
+P0774,2026-03-18,2026-04-02,Oncology,General,60,50,Dr. Nair,Yes,Ventilator,8,15,83.33
+P0775,2026-05-27,2026-06-09,Pediatrics,Semi-Private,60,57,Dr. Rao,Yes,Radiation Machine,8,13,95
+P0776,2026-03-22,2026-03-29,Gynecology,ICU,120,78,Dr. Mehta,Yes,X-Ray Machine,11,7,65
+P0777,2026-03-12,2026-03-21,Cardiology,Semi-Private,120,80,Dr. Reddy,Yes,CT Scanner,22,9,66.67
+P0778,2026-04-19,2026-04-28,Orthopedics,Private,80,49,Dr. Das,No,Ultrasound,5,9,61.25
+P0779,2026-06-15,2026-06-26,Cardiology,ICU,50,46,Dr. Patel,No,Ultrasound,25,11,92
+P0780,2026-06-29,2026-07-06,Emergency,Semi-Private,60,58,Dr. Nair,Yes,Heart Monitor,13,7,96.67
+P0781,2026-03-19,2026-03-22,Emergency,ICU,80,51,Dr. Das,No,Skin Scanner,18,3,63.75
+P0782,2026-01-09,2026-01-15,Dermatology,Semi-Private,60,55,Dr. Reddy,No,MRI Scanner,10,6,91.67
+P0783,2026-06-28,2026-07-04,Gynecology,Private,60,46,Dr. Das,Yes,ECG Machine,25,6,76.67
+P0784,2026-06-14,2026-06-18,Orthopedics,General,150,142,Dr. Nair,Yes,Skin Scanner,14,4,94.67
+P0785,2026-03-22,2026-04-02,Orthopedics,ICU,60,31,Dr. Mehta,No,CT Scanner,19,11,51.67
+P0786,2026-05-03,2026-05-18,Orthopedics,Private,70,44,Dr. Patel,Yes,MRI Scanner,18,15,62.86
+P0787,2026-04-05,2026-04-09,Emergency,General,120,96,Dr. Sharma,Yes,MRI Scanner,19,4,80
+P0788,2026-02-20,2026-02-26,Gynecology,Semi-Private,70,31,Dr. Patel,Yes,MRI Scanner,16,6,44.29
+P0789,2026-02-13,2026-02-24,Gynecology,Semi-Private,60,24,Dr. Das,Yes,Ventilator,27,11,40
+P0790,2026-02-22,2026-02-27,Dermatology,Semi-Private,90,54,Dr. Mehta,No,Ventilator,24,5,60
+P0791,2026-02-25,2026-03-12,Emergency,Semi-Private,90,82,Dr. Mehta,No,X-Ray Machine,5,15,91.11
+P0792,2026-03-16,2026-03-22,Dermatology,ICU,80,71,Dr. Reddy,No,MRI Scanner,5,6,88.75
+P0793,2026-05-01,2026-05-05,Gynecology,ICU,100,84,Dr. Nair,No,Fetal Monitor,24,4,84
+P0794,2026-03-07,2026-03-10,Cardiology,General,60,59,Dr. Reddy,Yes,EEG Machine,16,3,98.33
+P0795,2026-06-05,2026-06-17,Pediatrics,Semi-Private,50,20,Dr. Patel,No,Skin Scanner,16,12,40
+P0796,2026-02-03,2026-02-13,Orthopedics,Private,50,38,Dr. Mehta,No,CT Scanner,19,10,76
+P0797,2026-02-03,2026-02-06,Gynecology,ICU,100,85,Dr. Patel,Yes,CT Scanner,6,3,85
+P0798,2026-02-02,2026-02-11,Oncology,Semi-Private,90,83,Dr. Patel,No,Radiation Machine,29,9,92.22
+P0799,2026-03-09,2026-03-19,Orthopedics,Private,100,67,Dr. Das,Yes,Nebulizer,26,10,67
+P0800,2026-06-12,2026-06-26,Emergency,ICU,150,66,Dr. Sharma,Yes,X-Ray Machine,6,14,44
+P0801,2026-05-01,2026-05-07,Gynecology,General,70,57,Dr. Das,Yes,EEG Machine,16,6,81.43
+P0802,2026-05-24,2026-06-02,Neurology,ICU,150,123,Dr. Rao,No,MRI Scanner,11,9,82
+P0803,2026-03-14,2026-03-18,Pediatrics,ICU,70,60,Dr. Sharma,Yes,Heart Monitor,7,4,85.71
+P0804,2026-03-05,2026-03-19,Neurology,Private,150,146,Dr. Sharma,No,Skin Scanner,26,14,97.33
+P0805,2026-02-01,2026-02-09,Neurology,Private,100,77,Dr. Mehta,Yes,MRI Scanner,19,8,77
+P0806,2026-06-18,2026-06-27,Pediatrics,General,150,140,Dr. Reddy,Yes,Skin Scanner,24,9,93.33
+P0807,2026-04-26,2026-05-03,Cardiology,Private,70,41,Dr. Reddy,Yes,Fetal Monitor,7,7,58.57
+P0808,2026-05-21,2026-06-01,Gynecology,Private,120,59,Dr. Mehta,Yes,Heart Monitor,7,11,49.17
+P0809,2026-01-06,2026-01-21,Gynecology,Semi-Private,80,42,Dr. Patel,Yes,MRI Scanner,14,15,52.5
+P0810,2026-05-06,2026-05-20,Orthopedics,Private,120,87,Dr. Rao,No,Nebulizer,11,14,72.5
+P0811,2026-05-06,2026-05-15,Pediatrics,Semi-Private,120,108,Dr. Rao,No,CT Scanner,24,9,90
+P0812,2026-02-17,2026-02-25,Cardiology,Private,120,59,Dr. Das,Yes,Skin Scanner,26,8,49.17
+P0813,2026-02-09,2026-02-18,Dermatology,Semi-Private,60,42,Dr. Rao,No,Ultrasound,9,9,70
+P0814,2026-02-02,2026-02-14,Emergency,Semi-Private,90,89,Dr. Patel,Yes,Nebulizer,7,12,98.89
+P0815,2026-01-12,2026-01-22,Gynecology,Semi-Private,60,56,Dr. Rao,No,Skin Scanner,28,10,93.33
+P0816,2026-05-26,2026-06-10,Pediatrics,General,90,58,Dr. Sharma,Yes,Fetal Monitor,26,15,64.44
+P0817,2026-04-29,2026-05-03,Cardiology,General,70,53,Dr. Nair,No,CT Scanner,23,4,75.71
+P0818,2026-04-27,2026-05-11,Pediatrics,Private,150,139,Dr. Mehta,Yes,X-Ray Machine,7,14,92.67
+P0819,2026-06-04,2026-06-10,Cardiology,General,60,51,Dr. Nair,Yes,ECG Machine,10,6,85
+P0820,2026-06-17,2026-06-26,Gynecology,Semi-Private,150,148,Dr. Patel,No,Fetal Monitor,26,9,98.67
+P0821,2026-06-26,2026-07-08,Neurology,ICU,120,86,Dr. Mehta,Yes,Ventilator,8,12,71.67
+P0822,2026-01-05,2026-01-18,Emergency,Semi-Private,80,33,Dr. Mehta,Yes,Heart Monitor,25,13,41.25
+P0823,2026-05-18,2026-05-23,Dermatology,ICU,60,43,Dr. Das,No,ECG Machine,8,5,71.67
+P0824,2026-02-12,2026-02-16,Dermatology,General,150,122,Dr. Das,Yes,Ventilator,14,4,81.33
+P0825,2026-05-26,2026-06-10,Oncology,General,120,54,Dr. Rao,No,Heart Monitor,20,15,45
+P0826,2026-05-29,2026-06-09,Dermatology,Semi-Private,90,38,Dr. Das,No,Ventilator,27,11,42.22
+P0827,2026-01-16,2026-01-26,Oncology,General,50,33,Dr. Patel,No,EEG Machine,8,10,66
+P0828,2026-05-07,2026-05-18,Gynecology,General,100,68,Dr. Mehta,No,Fetal Monitor,11,11,68
+P0829,2026-05-01,2026-05-08,Emergency,Private,150,89,Dr. Das,Yes,Ultrasound,28,7,59.33
+P0830,2026-04-10,2026-04-18,Dermatology,ICU,100,90,Dr. Khan,No,Fetal Monitor,28,8,90
+P0831,2026-01-23,2026-02-04,Orthopedics,ICU,150,76,Dr. Mehta,No,MRI Scanner,30,12,50.67
+P0832,2026-04-17,2026-04-26,Emergency,General,90,51,Dr. Sharma,No,Ultrasound,16,9,56.67
+P0833,2026-06-23,2026-06-27,Cardiology,General,70,60,Dr. Reddy,No,MRI Scanner,24,4,85.71
+P0834,2026-02-28,2026-03-03,Pediatrics,Private,80,63,Dr. Reddy,Yes,Nebulizer,13,3,78.75
+P0835,2026-02-08,2026-02-23,Dermatology,Semi-Private,60,27,Dr. Rao,Yes,Radiation Machine,24,15,45
+P0836,2026-01-27,2026-02-11,Neurology,ICU,50,36,Dr. Rao,Yes,CT Scanner,10,15,72
+P0837,2026-03-16,2026-03-29,Dermatology,General,150,124,Dr. Mehta,No,CT Scanner,9,13,82.67
+P0838,2026-02-01,2026-02-16,Gynecology,General,80,60,Dr. Khan,No,CT Scanner,14,15,75
+P0839,2026-05-10,2026-05-14,Oncology,Semi-Private,60,41,Dr. Reddy,Yes,X-Ray Machine,29,4,68.33
+P0840,2026-05-16,2026-05-24,Gynecology,Semi-Private,80,40,Dr. Nair,No,Nebulizer,30,8,50
+P0841,2026-06-24,2026-07-01,Orthopedics,General,50,34,Dr. Rao,Yes,CT Scanner,15,7,68
+P0842,2026-04-13,2026-04-27,Cardiology,Semi-Private,70,55,Dr. Sharma,Yes,Radiation Machine,6,14,78.57
+P0843,2026-06-11,2026-06-24,Gynecology,Private,90,62,Dr. Reddy,No,ECG Machine,13,13,68.89
+P0844,2026-05-16,2026-05-27,Dermatology,ICU,70,53,Dr. Das,No,Skin Scanner,17,11,75.71
+P0845,2026-02-20,2026-02-26,Oncology,Semi-Private,60,26,Dr. Mehta,No,Ventilator,7,6,43.33
+P0846,2026-05-11,2026-05-21,Oncology,ICU,90,69,Dr. Sharma,Yes,Nebulizer,23,10,76.67
+P0847,2026-03-08,2026-03-13,Gynecology,General,90,82,Dr. Sharma,No,Ultrasound,25,5,91.11
+P0848,2026-05-10,2026-05-17,Neurology,Semi-Private,60,27,Dr. Patel,Yes,EEG Machine,15,7,45
+P0849,2026-03-02,2026-03-16,Pediatrics,Private,80,54,Dr. Mehta,No,Nebulizer,28,14,67.5
+P0850,2026-03-05,2026-03-08,Emergency,Private,100,73,Dr. Das,Yes,X-Ray Machine,27,3,73
+P0851,2026-04-19,2026-05-04,Neurology,General,120,58,Dr. Nair,Yes,EEG Machine,11,15,48.33
+P0852,2026-04-25,2026-04-28,Gynecology,Semi-Private,100,83,Dr. Patel,No,Skin Scanner,18,3,83
+P0853,2026-04-23,2026-05-06,Orthopedics,ICU,150,113,Dr. Mehta,No,Fetal Monitor,19,13,75.33
+P0854,2026-02-03,2026-02-16,Dermatology,Semi-Private,60,37,Dr. Sharma,Yes,Nebulizer,16,13,61.67
+P0855,2026-01-31,2026-02-11,Neurology,Private,120,62,Dr. Patel,Yes,Nebulizer,9,11,51.67
+P0856,2026-01-31,2026-02-07,Pediatrics,Private,90,59,Dr. Das,Yes,X-Ray Machine,9,7,65.56
+P0857,2026-05-31,2026-06-08,Pediatrics,Private,50,49,Dr. Khan,Yes,Fetal Monitor,20,8,98
+P0858,2026-01-01,2026-01-04,Cardiology,Semi-Private,100,44,Dr. Das,No,Radiation Machine,19,3,44
+P0859,2026-03-28,2026-04-11,Orthopedics,ICU,120,108,Dr. Das,No,Skin Scanner,19,14,90
+P0860,2026-02-08,2026-02-23,Gynecology,Semi-Private,100,45,Dr. Khan,No,CT Scanner,22,15,45
+P0861,2026-01-12,2026-01-24,Neurology,ICU,150,95,Dr. Sharma,No,Nebulizer,25,12,63.33
+P0862,2026-02-01,2026-02-13,Cardiology,ICU,60,36,Dr. Das,Yes,MRI Scanner,26,12,60
+P0863,2026-05-17,2026-05-21,Emergency,ICU,50,28,Dr. Das,Yes,Nebulizer,24,4,56
+P0864,2026-03-24,2026-04-01,Cardiology,Private,50,35,Dr. Nair,Yes,Heart Monitor,5,8,70
+P0865,2026-05-16,2026-05-23,Neurology,General,120,80,Dr. Rao,Yes,Ultrasound,9,7,66.67
+P0866,2026-02-16,2026-02-22,Pediatrics,Semi-Private,60,33,Dr. Mehta,Yes,Radiation Machine,15,6,55
+P0867,2026-02-16,2026-02-18,Gynecology,General,50,29,Dr. Reddy,Yes,Heart Monitor,15,2,58
+P0868,2026-03-08,2026-03-16,Emergency,ICU,60,27,Dr. Khan,No,Nebulizer,29,8,45
+P0869,2026-05-10,2026-05-18,Cardiology,Private,60,41,Dr. Das,No,MRI Scanner,20,8,68.33
+P0870,2026-01-08,2026-01-16,Pediatrics,General,80,33,Dr. Khan,Yes,Ultrasound,23,8,41.25
+P0871,2026-04-15,2026-04-24,Emergency,ICU,60,56,Dr. Reddy,Yes,Ventilator,22,9,93.33
+P0872,2026-04-19,2026-04-29,Cardiology,Semi-Private,150,65,Dr. Patel,Yes,ECG Machine,6,10,43.33
+P0873,2026-05-04,2026-05-10,Gynecology,Private,90,89,Dr. Khan,No,ECG Machine,10,6,98.89
+P0874,2026-05-17,2026-05-28,Neurology,Semi-Private,60,43,Dr. Rao,Yes,Fetal Monitor,22,11,71.67
+P0875,2026-03-13,2026-03-21,Oncology,Private,80,71,Dr. Patel,No,Ultrasound,12,8,88.75
+P0876,2026-06-19,2026-06-26,Dermatology,Private,100,53,Dr. Sharma,Yes,Skin Scanner,5,7,53
+P0877,2026-06-05,2026-06-14,Cardiology,ICU,50,48,Dr. Nair,No,Heart Monitor,22,9,96
+P0878,2026-01-21,2026-02-04,Cardiology,Semi-Private,60,58,Dr. Rao,No,Heart Monitor,24,14,96.67
+P0879,2026-04-02,2026-04-10,Neurology,Semi-Private,70,28,Dr. Reddy,Yes,EEG Machine,5,8,40
+P0880,2026-02-26,2026-03-11,Pediatrics,Private,50,44,Dr. Khan,Yes,Radiation Machine,25,13,88
+P0881,2026-03-19,2026-04-02,Dermatology,Private,80,46,Dr. Sharma,No,EEG Machine,27,14,57.5
+P0882,2026-06-30,2026-07-11,Emergency,Semi-Private,80,32,Dr. Rao,No,Radiation Machine,21,11,40
+P0883,2026-05-07,2026-05-11,Orthopedics,General,80,74,Dr. Mehta,Yes,X-Ray Machine,13,4,92.5
+P0884,2026-05-26,2026-06-10,Pediatrics,ICU,80,65,Dr. Sharma,No,Skin Scanner,22,15,81.25
+P0885,2026-04-27,2026-04-29,Oncology,Semi-Private,120,54,Dr. Nair,No,MRI Scanner,26,2,45
+P0886,2026-05-13,2026-05-22,Cardiology,ICU,150,106,Dr. Sharma,No,Heart Monitor,22,9,70.67
+P0887,2026-04-25,2026-05-02,Emergency,Private,50,32,Dr. Rao,Yes,Fetal Monitor,12,7,64
+P0888,2026-06-26,2026-07-04,Emergency,ICU,60,39,Dr. Reddy,No,MRI Scanner,25,8,65
+P0889,2026-06-10,2026-06-13,Gynecology,General,50,35,Dr. Reddy,No,Ventilator,8,3,70
+P0890,2026-05-02,2026-05-07,Cardiology,Private,100,93,Dr. Khan,Yes,Radiation Machine,24,5,93
+P0891,2026-04-23,2026-05-07,Neurology,General,60,52,Dr. Sharma,Yes,Heart Monitor,15,14,86.67
+P0892,2026-06-27,2026-06-30,Dermatology,General,70,31,Dr. Patel,No,MRI Scanner,8,3,44.29
+P0893,2026-06-23,2026-06-25,Gynecology,Semi-Private,50,29,Dr. Rao,No,Ventilator,24,2,58
+P0894,2026-06-18,2026-06-29,Gynecology,Semi-Private,50,34,Dr. Nair,Yes,CT Scanner,25,11,68
+P0895,2026-06-22,2026-07-06,Oncology,ICU,50,34,Dr. Rao,Yes,ECG Machine,24,14,68
+P0896,2026-01-18,2026-01-29,Orthopedics,Private,80,68,Dr. Reddy,No,EEG Machine,28,11,85
+P0897,2026-06-08,2026-06-17,Orthopedics,General,70,43,Dr. Sharma,Yes,Ultrasound,23,9,61.43
+P0898,2026-04-22,2026-05-02,Orthopedics,ICU,100,59,Dr. Das,No,Radiation Machine,15,10,59
+P0899,2026-03-16,2026-03-23,Orthopedics,General,50,36,Dr. Khan,Yes,Heart Monitor,16,7,72
+P0900,2026-02-20,2026-02-25,Oncology,ICU,80,36,Dr. Das,No,Radiation Machine,27,5,45
+P0901,2026-03-26,2026-04-10,Pediatrics,Semi-Private,100,79,Dr. Reddy,Yes,MRI Scanner,19,15,79
+P0902,2026-01-11,2026-01-20,Emergency,ICU,80,32,Dr. Das,Yes,Ventilator,20,9,40
+P0903,2026-03-26,2026-04-09,Gynecology,ICU,120,74,Dr. Sharma,No,ECG Machine,7,14,61.67
+P0904,2026-04-02,2026-04-04,Pediatrics,Semi-Private,60,33,Dr. Khan,No,ECG Machine,5,2,55
+P0905,2026-02-20,2026-02-25,Emergency,Private,90,47,Dr. Mehta,No,Nebulizer,12,5,52.22
+P0906,2026-02-15,2026-02-20,Pediatrics,General,50,25,Dr. Sharma,Yes,Heart Monitor,25,5,50
+P0907,2026-01-29,2026-02-05,Dermatology,ICU,80,51,Dr. Reddy,No,Skin Scanner,10,7,63.75
+P0908,2026-05-15,2026-05-29,Neurology,ICU,120,56,Dr. Mehta,Yes,Ventilator,22,14,46.67
+P0909,2026-04-07,2026-04-20,Gynecology,ICU,100,60,Dr. Sharma,Yes,Nebulizer,14,13,60
+P0910,2026-02-08,2026-02-15,Pediatrics,ICU,80,35,Dr. Das,Yes,Fetal Monitor,7,7,43.75
+P0911,2026-05-01,2026-05-15,Gynecology,Private,60,34,Dr. Das,No,X-Ray Machine,15,14,56.67
+P0912,2026-04-06,2026-04-16,Dermatology,Private,150,123,Dr. Nair,Yes,Ventilator,12,10,82
+P0913,2026-02-21,2026-03-02,Emergency,Private,80,57,Dr. Nair,No,Radiation Machine,10,9,71.25
+P0914,2026-04-06,2026-04-12,Neurology,Private,60,32,Dr. Das,No,Ventilator,23,6,53.33
+P0915,2026-01-11,2026-01-20,Dermatology,Semi-Private,100,67,Dr. Nair,No,CT Scanner,30,9,67
+P0916,2026-05-08,2026-05-15,Cardiology,ICU,90,60,Dr. Das,Yes,Ultrasound,25,7,66.67
+P0917,2026-01-20,2026-01-27,Neurology,Private,60,42,Dr. Khan,Yes,MRI Scanner,7,7,70
+P0918,2026-04-03,2026-04-05,Emergency,Private,80,53,Dr. Patel,No,Fetal Monitor,29,2,66.25
+P0919,2026-06-24,2026-07-09,Orthopedics,Private,90,48,Dr. Sharma,No,Ultrasound,16,15,53.33
+P0920,2026-04-14,2026-04-22,Orthopedics,Semi-Private,50,35,Dr. Khan,Yes,Fetal Monitor,28,8,70
+P0921,2026-02-23,2026-03-04,Dermatology,Semi-Private,80,65,Dr. Reddy,Yes,CT Scanner,11,9,81.25
+P0922,2026-04-20,2026-05-04,Dermatology,Semi-Private,120,74,Dr. Sharma,No,X-Ray Machine,23,14,61.67
+P0923,2026-02-02,2026-02-08,Oncology,Private,50,35,Dr. Khan,No,Heart Monitor,26,6,70
+P0924,2026-04-14,2026-04-28,Cardiology,General,90,56,Dr. Mehta,Yes,CT Scanner,23,14,62.22
+P0925,2026-06-11,2026-06-25,Emergency,Semi-Private,120,96,Dr. Rao,No,Ventilator,20,14,80
+P0926,2026-01-28,2026-02-04,Pediatrics,General,150,141,Dr. Mehta,Yes,Skin Scanner,22,7,94
+P0927,2026-02-15,2026-02-17,Orthopedics,ICU,150,63,Dr. Rao,No,Ultrasound,11,2,42
+P0928,2026-03-01,2026-03-07,Cardiology,Private,60,53,Dr. Sharma,Yes,CT Scanner,18,6,88.33
+P0929,2026-04-11,2026-04-15,Gynecology,Semi-Private,60,32,Dr. Rao,No,Ventilator,9,4,53.33
+P0930,2026-02-22,2026-02-28,Orthopedics,Private,120,108,Dr. Khan,No,Ultrasound,11,6,90
+P0931,2026-01-02,2026-01-06,Gynecology,ICU,150,68,Dr. Reddy,No,EEG Machine,19,4,45.33
+P0932,2026-05-28,2026-05-30,Dermatology,Private,60,42,Dr. Patel,No,Radiation Machine,30,2,70
+P0933,2026-02-14,2026-02-22,Gynecology,Semi-Private,80,43,Dr. Nair,Yes,Fetal Monitor,23,8,53.75
+P0934,2026-01-25,2026-02-02,Orthopedics,Private,50,27,Dr. Patel,Yes,Fetal Monitor,28,8,54
+P0935,2026-02-25,2026-03-06,Neurology,Private,120,118,Dr. Rao,Yes,Nebulizer,29,9,98.33
+P0936,2026-03-25,2026-04-02,Pediatrics,ICU,150,81,Dr. Sharma,No,ECG Machine,7,8,54
+P0937,2026-06-13,2026-06-26,Oncology,Semi-Private,150,108,Dr. Khan,No,ECG Machine,5,13,72
+P0938,2026-03-06,2026-03-09,Dermatology,Semi-Private,70,48,Dr. Das,Yes,MRI Scanner,22,3,68.57
+P0939,2026-06-18,2026-06-23,Dermatology,Private,150,77,Dr. Mehta,Yes,ECG Machine,24,5,51.33
+P0940,2026-01-26,2026-01-30,Gynecology,ICU,90,43,Dr. Rao,Yes,Skin Scanner,13,4,47.78
+P0941,2026-02-09,2026-02-18,Emergency,General,100,51,Dr. Khan,No,Fetal Monitor,6,9,51
+P0942,2026-06-12,2026-06-26,Pediatrics,Semi-Private,60,48,Dr. Sharma,Yes,ECG Machine,29,14,80
+P0943,2026-04-07,2026-04-21,Oncology,ICU,80,47,Dr. Khan,Yes,ECG Machine,18,14,58.75
+P0944,2026-01-08,2026-01-10,Emergency,General,100,92,Dr. Khan,Yes,Skin Scanner,10,2,92
+P0945,2026-02-12,2026-02-14,Neurology,Private,120,113,Dr. Reddy,Yes,Radiation Machine,11,2,94.17
+P0946,2026-05-19,2026-05-27,Emergency,ICU,120,63,Dr. Rao,No,CT Scanner,10,8,52.5
+P0947,2026-01-04,2026-01-12,Gynecology,ICU,100,40,Dr. Das,Yes,MRI Scanner,26,8,40
+P0948,2026-03-13,2026-03-25,Neurology,ICU,100,42,Dr. Nair,No,Radiation Machine,20,12,42
+P0949,2026-01-27,2026-02-09,Neurology,Private,70,44,Dr. Nair,Yes,CT Scanner,10,13,62.86
+P0950,2026-06-12,2026-06-26,Dermatology,General,100,94,Dr. Reddy,Yes,Radiation Machine,23,14,94
+P0951,2026-04-25,2026-05-03,Cardiology,ICU,80,64,Dr. Sharma,Yes,Ultrasound,12,8,80
+P0952,2026-04-20,2026-05-04,Neurology,General,80,71,Dr. Mehta,No,EEG Machine,14,14,88.75
+P0953,2026-02-21,2026-02-25,Cardiology,ICU,120,74,Dr. Das,No,X-Ray Machine,13,4,61.67
+P0954,2026-03-23,2026-04-04,Gynecology,Private,50,36,Dr. Sharma,Yes,Fetal Monitor,15,12,72
+P0955,2026-03-29,2026-04-03,Cardiology,ICU,80,66,Dr. Khan,No,Nebulizer,15,5,82.5
+P0956,2026-02-16,2026-02-25,Dermatology,General,50,22,Dr. Khan,Yes,Skin Scanner,9,9,44
+P0957,2026-02-22,2026-02-26,Emergency,ICU,60,35,Dr. Rao,No,Fetal Monitor,19,4,58.33
+P0958,2026-03-21,2026-03-25,Gynecology,ICU,80,47,Dr. Khan,No,Ultrasound,23,4,58.75
+P0959,2026-04-25,2026-05-07,Dermatology,General,80,49,Dr. Reddy,No,Heart Monitor,10,12,61.25
+P0960,2026-05-01,2026-05-10,Gynecology,ICU,120,112,Dr. Das,Yes,Heart Monitor,18,9,93.33
+P0961,2026-01-22,2026-02-05,Orthopedics,ICU,90,74,Dr. Patel,No,EEG Machine,14,14,82.22
+P0962,2026-04-27,2026-05-03,Dermatology,General,120,119,Dr. Reddy,Yes,Fetal Monitor,20,6,99.17
+P0963,2026-02-20,2026-02-24,Cardiology,Private,80,32,Dr. Das,No,Heart Monitor,17,4,40
+P0964,2026-04-06,2026-04-14,Neurology,Semi-Private,150,99,Dr. Sharma,Yes,Heart Monitor,23,8,66
+P0965,2026-02-11,2026-02-16,Oncology,Semi-Private,120,80,Dr. Reddy,Yes,Skin Scanner,17,5,66.67
+P0966,2026-04-19,2026-05-02,Dermatology,General,80,47,Dr. Reddy,Yes,Fetal Monitor,26,13,58.75
+P0967,2026-06-15,2026-06-19,Dermatology,ICU,90,74,Dr. Patel,Yes,Radiation Machine,23,4,82.22
+P0968,2026-06-19,2026-07-04,Neurology,General,70,28,Dr. Nair,No,Fetal Monitor,23,15,40
+P0969,2026-01-21,2026-01-31,Orthopedics,Semi-Private,80,59,Dr. Patel,No,Nebulizer,22,10,73.75
+P0970,2026-06-18,2026-06-26,Gynecology,General,90,82,Dr. Rao,No,X-Ray Machine,13,8,91.11
+P0971,2026-02-23,2026-03-08,Cardiology,ICU,120,87,Dr. Das,Yes,MRI Scanner,7,13,72.5
+P0972,2026-06-28,2026-07-06,Gynecology,ICU,120,84,Dr. Mehta,No,X-Ray Machine,27,8,70
+P0973,2026-02-04,2026-02-09,Neurology,Semi-Private,150,83,Dr. Khan,Yes,Ventilator,6,5,55.33
+P0974,2026-02-16,2026-03-02,Gynecology,Semi-Private,80,48,Dr. Rao,Yes,MRI Scanner,14,14,60
+P0975,2026-01-22,2026-01-30,Neurology,Private,60,41,Dr. Sharma,Yes,EEG Machine,20,8,68.33
+P0976,2026-06-22,2026-07-06,Cardiology,Private,60,24,Dr. Sharma,Yes,MRI Scanner,11,14,40
+P0977,2026-05-14,2026-05-28,Pediatrics,Semi-Private,50,32,Dr. Das,No,Radiation Machine,18,14,64
+P0978,2026-03-28,2026-04-04,Emergency,Private,100,60,Dr. Nair,No,Radiation Machine,6,7,60
+P0979,2026-04-02,2026-04-17,Neurology,General,100,91,Dr. Das,No,Fetal Monitor,9,15,91
+P0980,2026-01-07,2026-01-18,Pediatrics,ICU,60,57,Dr. Reddy,No,Radiation Machine,26,11,95
+P0981,2026-06-18,2026-07-03,Gynecology,ICU,150,125,Dr. Sharma,No,ECG Machine,25,15,83.33
+P0982,2026-04-03,2026-04-18,Oncology,Semi-Private,50,45,Dr. Khan,No,Heart Monitor,28,15,90
+P0983,2026-06-06,2026-06-20,Gynecology,Semi-Private,60,46,Dr. Rao,No,Ultrasound,24,14,76.67
+P0984,2026-02-19,2026-03-04,Cardiology,ICU,70,61,Dr. Das,Yes,Ultrasound,26,13,87.14
+P0985,2026-05-21,2026-06-05,Dermatology,General,150,81,Dr. Das,Yes,Ventilator,11,15,54
+P0986,2026-02-13,2026-02-27,Gynecology,General,60,30,Dr. Mehta,No,Heart Monitor,29,14,50
+P0987,2026-03-13,2026-03-18,Dermatology,General,90,78,Dr. Mehta,No,MRI Scanner,30,5,86.67
+P0988,2026-06-27,2026-07-04,Neurology,Private,80,68,Dr. Nair,No,Skin Scanner,25,7,85
+P0989,2026-05-24,2026-06-08,Emergency,Private,120,77,Dr. Rao,No,MRI Scanner,8,15,64.17
+P0990,2026-01-23,2026-01-30,Neurology,Private,80,79,Dr. Mehta,No,Heart Monitor,23,7,98.75
+P0991,2026-01-01,2026-01-07,Emergency,Semi-Private,50,38,Dr. Nair,No,CT Scanner,30,6,76
+P0992,2026-06-23,2026-07-07,Emergency,General,70,61,Dr. Nair,Yes,Nebulizer,19,14,87.14
+P0993,2026-03-22,2026-03-26,Emergency,Semi-Private,90,89,Dr. Das,Yes,Radiation Machine,14,4,98.89
+P0994,2026-02-07,2026-02-20,Oncology,Private,50,39,Dr. Rao,No,Fetal Monitor,23,13,78
+P0995,2026-05-03,2026-05-15,Pediatrics,Semi-Private,80,63,Dr. Sharma,No,X-Ray Machine,27,12,78.75
+P0996,2026-02-23,2026-03-10,Cardiology,ICU,80,76,Dr. Das,No,Ultrasound,26,15,95
+P0997,2026-02-10,2026-02-12,Gynecology,Semi-Private,120,91,Dr. Reddy,No,Heart Monitor,7,2,75.83
+P0998,2026-05-16,2026-05-29,Emergency,Semi-Private,90,54,Dr. Rao,Yes,CT Scanner,29,13,60
+P0999,2026-05-29,2026-06-13,Pediatrics,Semi-Private,50,47,Dr. Mehta,Yes,EEG Machine,27,15,94
+P1000,2026-05-04,2026-05-10,Emergency,ICU,70,41,Dr. Sharma,No,Fetal Monitor,23,6,58.57
