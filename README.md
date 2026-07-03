@@ -20,15 +20,15 @@ analysis.
 
 Tool/Technology Purpose
 
-Python        Programming language
-Pandas        Data manipulation and analysis
-NumPy         Numerical computations
-Streamlit     Web application development
-Power BI      Interactive dashboard creation
-Plotly        Data visualization
-Scikit-learn  Machine learning algorithms
-CSV           Dataset storage
-VS Code       Development environment
+• Python   -     Programming language
+• Pandas   -     Data manipulation and analysis
+• NumPy    -     Numerical computations
+• Streamlit -    Web application development
+• Power BI   -   Interactive dashboard creation
+• Plotly     -   Data visualization
+• Scikit-learn - Machine learning algorithms
+• CSV       -    Dataset storage
+• VS Code  -     Development environment
 
 # Machine Learning Models
 
