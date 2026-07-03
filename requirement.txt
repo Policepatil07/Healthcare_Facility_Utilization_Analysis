@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+random
+plotly
+scikit-learn
+matplotlib
+os
+base64
+re
